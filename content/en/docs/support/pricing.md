@@ -102,6 +102,8 @@ Unlimited for as long as your account has remaining credits available. Fill up y
 
 Credits are purchased as one-time packs (non-recurring - nothing to cancel):
 - 1M chars: $19
+- 3M chars: $39 (currently available via the TTSReader Chrome extension)
+- 10M chars: $99 (currently available via the TTSReader Chrome extension)
 
 See [comparison table](#comparison-table) to compare the different plans.
 
@@ -208,7 +210,9 @@ See [comparison table](#comparison-table) to compare the different plans.
       <td>Credits can be purchased to enable use above plan's limits</td>
       <td>Credits can be purchased to enable use above plan's limits</td>
       <td>
-        1M chars: $19 (one-time)
+        1M chars: $19 (one-time)<br/>
+        3M chars: $39 (one-time, via Chrome extension)<br/>
+        10M chars: $99 (one-time, via Chrome extension)
       </td>
     </tr>
     <tr>

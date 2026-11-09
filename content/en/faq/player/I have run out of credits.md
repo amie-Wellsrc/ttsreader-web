@@ -33,7 +33,9 @@ the reader.
 2)  Revert to Free voices with no limitations.
 
 3)  Buy (one time) Pay as you Go credits: 1 million characters for 19 USD.
-    This is a one-time payment, non-recurring - nothing to cancel.
+    Larger packs are available via the TTSReader Chrome extension:
+    3 million characters for 39 USD, and 10 million characters for 99 USD.
+    These are one-time payments, non-recurring - nothing to cancel.
 
 For more information - [TTSReader Pricing](https://ttsreader.com/docs/support/pricing/)
 
