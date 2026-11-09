@@ -1,6 +1,6 @@
 ---
 title: "An Overview of the TTSReader Voice Library: Leveraging Azure's Neural TTS"
-description: "A technical look at the 600+ voices available in TTSReader, powered by Azure's neural text-to-speech engine. Learn about the technology and how to choose the right voice for your project."
+description: "A technical look at the 630+ voices available in TTSReader, powered by Azure's neural text-to-speech engine. Learn about the technology and how to choose the right voice for your project."
 excerpt: "Explore the technology behind TTSReader's extensive voice library. This guide covers our use of Azure's neural TTS and provides practical advice on selecting the right voice for different applications."
 date: 2026-01-08T12:00:00+02:00
 lastmod: 2026-01-08T12:00:00+02:00
@@ -18,7 +18,7 @@ homepage: false
 
 ![An illustration of sound waves and multiple human profiles, representing a library of voices.](/assets/images/default-image.png)
 
-The perceived quality of any text-to-speech (TTS) application is largely determined by its underlying synthesis engine and the diversity of its voice library. TTSReader integrates Microsoft Azure's neural TTS platform, providing users with access to a library of over 600 high-quality, natural-sounding voices.
+The perceived quality of any text-to-speech (TTS) application is largely determined by its underlying synthesis engine and the diversity of its voice library. TTSReader integrates Microsoft Azure's neural TTS platform, providing users with access to a library of over 630 high-quality, natural-sounding voices.
 
 This guide provides a brief technical overview of the technology and practical guidance on selecting the appropriate voice for your project.
 
@@ -33,7 +33,7 @@ By leveraging Azure's robust and mature neural TTS platform, we can offer a vast
 
 ## Selecting the Right Voice: Use Cases
 
-With over 600 voices across dozens of languages and dialects, choosing the right one is key to a successful project. Here are some common use cases and voice selection strategies.
+With over 630 voices across dozens of languages and dialects, choosing the right one is key to a successful project. Here are some common use cases and voice selection strategies.
 
 ### Use Case 1: Long-Form Narration (Audiobooks, Articles)
 For content that requires sustained listening, clarity and a neutral, pleasant tone are paramount.
