@@ -3,7 +3,7 @@ title: "Plans & Pricing"
 description: "TTSReader's Plans & Pricing - Free, Premium, Extras, API & Quotas"
 lead: ""
 date: 2023-02-12T15:22:20+01:00
-lastmod: 2025-06-20T15:22:20+01:00
+lastmod: 2026-11-09T12:00:00+02:00
 tags: ["pricing", "plans"]
 categories: ["plans"]
 contributors: ["Company"]
@@ -27,10 +27,9 @@ Different plans and pricing models are available in order to accommodate all our
 
 All plans refer to the TTSReader.com web app & API. New mobile apps and browser-extensions are under development and when published will also be included under these plans. Legacy mobile apps and Chrome extension are mostly free and are not included in these plans.
 
-The paid plans are required for private power-users, businesses, organizations, schools, colleges, commercial use, publishing and selling the generated audio, API, bots and any automations. The paid plans cover our new player, API, Chrome extension, other browser extensions. It will cover our mobile apps as well, when they will be updated. Currently (as of 2025-05-18) the mobile apps are (unfortunately) outdated and have their own independent plans (which is mostly free). There are 3 complementary paid plans:
-* [Premium plan](#2-premium-plan) - single seat premium for most users.
-* [Premium Plus plan](#3-premium-plus-plan) - single seat premium for top 5% heavy users. To be developed in the future.
-* [Pay-as-you-go plan](#4-pay-as-you-go-plan) - for API users and for those who need to exceed the limits of the Premium and Premium Plus plans.
+The paid plans are required for private power-users, businesses, organizations, schools, colleges, commercial use, publishing and selling the generated audio, API, bots and any automations. The paid plans cover our new player, API, Chrome extension, other browser extensions. It will cover our mobile apps as well, when they will be updated. Currently (as of 2025-05-18) the mobile apps are (unfortunately) outdated and have their own independent plans (which is mostly free). There are 2 complementary paid options:
+* [Premium plan](#2-premium-plan) - single seat premium, billed monthly or annually.
+* [Pay-as-you-go credits](#3-pay-as-you-go-credits) - one-time credit packs, for API users and for those who need to exceed the limits of the Premium plan.
 
 ## Plans
 
@@ -43,10 +42,10 @@ The free plan is meant for personal use only, or for testing purposes prior to p
 
 #### Quotas for the free plan are:
 
-As of 2025-06-20 the free plan is limited to:
+As of 2026-11-09 the free plan is limited to:
 
 * Unlimited free non-premium voices both on the [legacy player](/legacy/) and the new player!! [new text-to-speech-player](/player/).
-* New AI premium voices are limited to 5k chars free. That may change from time to time. Generated audio under the free plan is not allowed for publishing or selling.
+* New AI premium voices are limited to 5,000 characters in total per account (a one-time allowance, not per day or per month). That may change from time to time. Generated audio under the free plan is not allowed for publishing or selling.
 * Not to be sold, resold, or abused.
 * For a single personal use only.
 * No bots, automations, API or any commercial use.
@@ -71,44 +70,38 @@ See [comparison table](#comparison-table) to compare the different plans.
 
 #### Quotas for the Premium Plan are:
 
-As of 2025-05-18 the premium plan is limited to:
+As of 2026-11-09 the premium plan is limited to:
 
 * Non premium voices: unlimited. This is both for the legacy player and the new player.
-* Premium voices: 1M (1 million) chars per month.
+* Premium voices: 1M (1 million) chars per month, and up to 200k chars per day. The monthly quota resets on the 1st of every month (UTC).
+
+The same quota applies to both the monthly and the annual subscription.
 
 #### Pricing
 
-You can choose between a monthly subscription or a yearly subscription. The advantage of the yearly license is it is cheaper per month.
+You can choose between a monthly subscription or a yearly subscription. The advantage of the yearly subscription is it is cheaper per month. Both renew automatically until cancelled.
 
 * Monthly subscription: $10.99 per month.
-* Annual subscription: $99 per whole year - which becomes only $8.25 per month..
+* Annual subscription: $99 per year - which becomes only $8.25 per month.
 
 See [comparison table](#comparison-table) to compare the different plans.
 
 <br/>
 
-### 3. Premium Plus Plan
-
-Not yet available, but coming soon.
-
-<br/>
-
-### 4. Pay-as-you-go Plan
+### 3. Pay-as-you-go Credits
 
 #### Scope
 
-Intended for anyone who prefers to only pay for what they actually use - and for users who need to exceed the limits of the Premium and Premium Plus plans. This plan is based on pre-purchasing credits. It is perfect for API users.
+Intended for anyone who prefers to only pay for what they actually use - and for users who need to exceed the limits of the Premium plan. This plan is based on pre-purchasing credits. It is perfect for API users.
 
-#### Quotas for the Pay-as-you-go Plan are:
+#### Quotas for Pay-as-you-go credits are:
 
 Unlimited for as long as your account has remaining credits available. Fill up your credits as needed. The credits are consumed by the number of characters actually generated by your account. The credits expire after 1 year - which is extended to 1 year on every new purchase - so even older credits get the expiration extended to 1 year from the last purchase. If the account has both a premium plan and credits, then the credits will be consumed only after the quota of the premium plan is reached.
 
 #### Pricing
 
-Credits are purchased in different packages:
-- 200k chars: $10
-- 1M chars: $32
-- 10M chars: $300
+Credits are purchased as one-time packs (non-recurring - nothing to cancel):
+- 1M chars: $19
 
 See [comparison table](#comparison-table) to compare the different plans.
 
@@ -146,8 +139,7 @@ See [comparison table](#comparison-table) to compare the different plans.
       <th>Feature</th>
       <th>Free</th>
       <th>Premium</th>
-      <th>Premium+</th>
-      <th>Pay-As-You-Go</th>
+      <th>Pay-As-You-Go Credits</th>
     </tr>
   </thead>
   <tbody>
@@ -155,13 +147,11 @@ See [comparison table](#comparison-table) to compare the different plans.
       <td>Usage Scope</td>
       <td>Personal use / testing only</td>
       <td>Single-seat normal use</td>
-      <td>Single-seat heavy use</td>
       <td>Credits-based / API / volume use</td>
     </tr>
     <tr>
       <td>Allowed for commercial or business use</td>
       <td>❌</td>
-      <td>✅</td>
       <td>✅</td>
       <td>✅</td>
     </tr>
@@ -170,18 +160,15 @@ See [comparison table](#comparison-table) to compare the different plans.
       <td>❌</td>
       <td>✅</td>
       <td>✅</td>
-      <td>✅</td>
     </tr>
     <tr>
       <td>Unlock premium player features</td>
       <td>❌</td>
       <td>✅</td>
       <td>✅</td>
-      <td>✅</td>
     </tr>
     <tr>
       <td>Legacy Player Quota - Unlimited for Normal Personal Non Commercial Use</td>
-      <td>✅</td>
       <td>✅</td>
       <td>✅</td>
       <td>✅</td>
@@ -191,52 +178,43 @@ See [comparison table](#comparison-table) to compare the different plans.
       <td>✅ Unlimited</td>
       <td>✅ Unlimited</td>
       <td>✅ Unlimited</td>
-      <td>✅ Unlimited</td>
     </tr>
     <tr>
       <td>New Player – Premium voices quota</td>
-      <td>5k total</td>
-      <td>✅ 1M/month</td>
-      <td>✅ 2.5M/month</td>
+      <td>5,000 chars total (one-time)</td>
+      <td>✅ 1M/month (up to 200k/day)</td>
       <td>✅ Unlimited (credits-based)</td>
     </tr>
     <tr>
       <td>API / Automation Support</td>
       <td>❌</td>
-      <td>❌</td>
-      <td>❌</td>
+      <td>✅ (uses the monthly quota)</td>
       <td>✅</td>
     </tr>
     <tr>
       <td>Subscription model</td>
       <td>❌</td>
       <td>$10.99/month</td>
-      <td>$20.99/month</td>
       <td>❌</td>
     </tr>
     <tr>
       <td>Annual Billing</td>
       <td>❌</td>
       <td>$99/year ($8.25/mo)</td>
-      <td>$180/year ($15/mo)</td>
       <td>❌</td>
     </tr>
     <tr>
       <td>Pay-as-you-go pricing</td>
       <td>Credits can be purchased to enable use above plan's limits</td>
       <td>Credits can be purchased to enable use above plan's limits</td>
-      <td>Credits can be purchased to enable use above plan's limits</td>
       <td>
-        200k: $10<br>
-        1M: $32<br>
-        10M: $300
+        1M chars: $19 (one-time)
       </td>
     </tr>
     <tr>
       <td>Quick Purchase Links</td>
       <td></td>
       <td>Purchase on <a href="/player/">the new player</a></td>
-      <td>Coming soon...</td>
       <td>Purchase on <a href="/player/">the new player</a></td>
     </tr>
   </tbody>

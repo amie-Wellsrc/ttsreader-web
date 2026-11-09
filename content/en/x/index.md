@@ -69,7 +69,7 @@ TTSReader is built to set a **new gold standard** for browser text-to-speech ext
 
 1. Does not inject itself unless explicitly triggered by the user.
 2. New/latest natural-sounding AI voices.
-3. 600+ voices, multilingual (any supported language). ![TTSReader Voice Selection](voices.jpeg)
+3. 630+ voices, multilingual (any supported language). ![TTSReader Voice Selection](voices.jpeg)
 4. Adjustable reading speeds.
 5. Skips irrelevant content. ![TTSReader Smart Filtering](smart_filtering.jpeg)
 6. Built-in editor so you can edit on-page text and create custom TTS playback. ![In-page editor](editor.jpeg)

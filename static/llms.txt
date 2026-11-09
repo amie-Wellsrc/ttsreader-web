@@ -1,6 +1,6 @@
 # TTSReader
 
-TTSReader is a free (with premium optional) online text-to-speech utility & service powered by AI & developed by WellSource Ltd. It converts any text, PDF, EPUB, DOCX, or webpage into natural-sounding speech (in ANY language), using 600+ AI voices from Google, Microsoft, and OpenAI. Available as a web app and Chrome extension.
+TTSReader is a free (with premium optional) online text-to-speech utility & service powered by AI & developed by WellSource Ltd. It converts any text, PDF, EPUB, DOCX, or webpage into natural-sounding speech (in ANY language), using 630+ AI voices in 80+ languages from Microsoft, Google, OpenAI, xAI and TTSReader's own voice server. Available as a web app and Chrome extension.
 
 TTSReader runs in any browser with no installation. It remembers your text, reading position, and preferences across sessions. It supports multi-voice and multi-language content in a single document, single-click MP3 export, and real-time text highlighting during playback.
 
