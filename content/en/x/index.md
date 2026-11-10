@@ -25,8 +25,10 @@ We are excited to launch the new **TTSReader browser extension**. Compatible wit
 
 
 <div style="padding: 30px; border: orangered 1px solid; border-radius: 15px; margin: 30px auto; text-align: center; font-size: larger; font-weight: bold;">
-Install it directly from the Chrome Web Store:
-<a href="https://chromewebstore.google.com/detail/kimpjeeihakmgdlnkjaapkdikpjccabi" target="_blank">Open the TTSReader extension page on the Chrome Store</a>
+Install it directly from your browser's store:<br/>
+<a href="https://chromewebstore.google.com/detail/kimpjeeihakmgdlnkjaapkdikpjccabi" target="_blank">Get it for Chrome</a>
+&nbsp;|&nbsp;
+<a href="https://microsoftedge.microsoft.com/addons/detail/ttsreader-v3-premium-ai/dnkkjjacmfdejfhjjdjmafkkiamhcnkl" target="_blank">Get it for Edge</a>
 </div>
 
 
@@ -87,7 +89,7 @@ TTSReader is built to set a **new gold standard** for browser text-to-speech ext
 
 ## Quick Start Guide
 
-1. Install the extension from the Chrome Web Store at: <a href="https://chromewebstore.google.com/detail/kimpjeeihakmgdlnkjaapkdikpjccabi" target="_blank">https://chromewebstore.google.com/detail/kimpjeeihakmgdlnkjaapkdikpjccabi</a>
+1. Install the extension from the <a href="https://chromewebstore.google.com/detail/kimpjeeihakmgdlnkjaapkdikpjccabi" target="_blank">Chrome Web Store</a> (Chrome) or from <a href="https://microsoftedge.microsoft.com/addons/detail/ttsreader-v3-premium-ai/dnkkjjacmfdejfhjjdjmafkkiamhcnkl" target="_blank">Microsoft Edge Add-ons</a> (Edge).
 2. Pin TTSReader in the browser toolbar for one-click access.
    ![Pin TTSReader in toolbar](/images/x/1_pin.gif)
 3. Use the extension action button to show/hide the floating controller on any page.
@@ -136,9 +138,9 @@ Always look for the business model. If you are not paying for the product, you a
 - **Best Value for Your Money** - our plans are priced so low, that you may even get the  AI voices at a lower rate through us than you would get purchasing directly from Microsoft / Google / OpenAI.
 
 
-## Some Other Extensions on the Chrome Store Also Use the Name "TTSReader" or Similar - Are They Related to You?
+## Some Other Extensions on the Chrome or Edge Store Also Use the Name "TTSReader" or Similar - Are They Related to You?
 
-No. Unfortunately, copycats use our name unlawfully, trying to benefit from our reputation. Please make sure you are installing the official TTSReader extension from the Chrome Web Store via this url: <a href="https://chromewebstore.google.com/detail/kimpjeeihakmgdlnkjaapkdikpjccabi" target="_blank">https://chromewebstore.google.com/detail/kimpjeeihakmgdlnkjaapkdikpjccabi</a>, published by "WellSource Ltd." and linked to and from ttsreader.com and not any other extension that may be using a similar name. Help us fight copycats by reporting any extension that is using our name unlawfully to the Chrome Web Store team and to us at [contact@ttsreader.com](mailto:contact@ttsreader.com)
+No. Unfortunately, copycats use our name unlawfully, trying to benefit from our reputation. Please make sure you are installing the official TTSReader extension from the Chrome Web Store via this url: <a href="https://chromewebstore.google.com/detail/kimpjeeihakmgdlnkjaapkdikpjccabi" target="_blank">https://chromewebstore.google.com/detail/kimpjeeihakmgdlnkjaapkdikpjccabi</a>, or from Microsoft Edge Add-ons via this url: <a href="https://microsoftedge.microsoft.com/addons/detail/ttsreader-v3-premium-ai/dnkkjjacmfdejfhjjdjmafkkiamhcnkl" target="_blank">https://microsoftedge.microsoft.com/addons/detail/ttsreader-v3-premium-ai/dnkkjjacmfdejfhjjdjmafkkiamhcnkl</a>, published by "WellSource Ltd." and linked to and from ttsreader.com and not any other extension that may be using a similar name. Help us fight copycats by reporting any extension that is using our name unlawfully to the Chrome Web Store or Edge Add-ons team and to us at [contact@ttsreader.com](mailto:contact@ttsreader.com)
 
 ## Tech Stack
 
@@ -159,8 +161,10 @@ We built the extension from scratch, bottom-up. Our previous extension (first pu
 ## Get Started Now
 
 <div style="padding: 30px; border: orangered 1px solid; border-radius: 15px; margin: 30px auto; text-align: center; font-size: larger; font-weight: bold;">
-Install it directly from the Chrome Web Store:
-<a href="https://chromewebstore.google.com/detail/kimpjeeihakmgdlnkjaapkdikpjccabi" target="_blank">Open the TTSReader extension page on the Chrome Store</a>
+Install it directly from your browser's store:<br/>
+<a href="https://chromewebstore.google.com/detail/kimpjeeihakmgdlnkjaapkdikpjccabi" target="_blank">Get it for Chrome</a>
+&nbsp;|&nbsp;
+<a href="https://microsoftedge.microsoft.com/addons/detail/ttsreader-v3-premium-ai/dnkkjjacmfdejfhjjdjmafkkiamhcnkl" target="_blank">Get it for Edge</a>
 </div>
 
 

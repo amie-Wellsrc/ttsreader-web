@@ -36,8 +36,9 @@ takes you through it from the start. You don't need any experience with browser 
 
 An extension is a small program you add to your browser. Open the
 [TTSReader page in the Chrome Web Store](https://chromewebstore.google.com/detail/ttsreader-v3-premium-ai-t/kimpjeeihakmgdlnkjaapkdikpjccabi)
-and click **Add to Chrome**. When your browser asks you to confirm, click **Add extension**. In Edge, the page first asks
-you to allow extensions from other stores.
+and click **Add to Chrome**. When your browser asks you to confirm, click **Add extension**. Using Edge? Open the
+[TTSReader page in Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/ttsreader-v3-premium-ai/dnkkjjacmfdejfhjjdjmafkkiamhcnkl)
+instead and click **Get**.
 
 ### Step 2: Sign in and go through the onboarding
 
