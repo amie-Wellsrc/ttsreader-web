@@ -158,7 +158,7 @@ No. The extension runs in a browser on a computer, and it reads books that are o
 
 ### Does it work in Microsoft Edge?
 
-Yes. Install it from the same Chrome Web Store page. Edge first asks you to allow extensions from other stores.
+Yes. Install it from [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/ttsreader-v3-premium-ai/dnkkjjacmfdejfhjjdjmafkkiamhcnkl). It's the same extension, with the same sign-in and the same plan.
 
 ### Which languages can it read in Kindle books?
 
