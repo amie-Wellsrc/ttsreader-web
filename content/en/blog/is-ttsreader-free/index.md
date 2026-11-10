@@ -1,9 +1,9 @@
 ---
 title: "Is TTSReader Really Free? Yes: Free, Unlimited Text to Speech in Your Browser"
 description: "Is TTSReader really free? Yes: the TTSReader web player has a completely free, unlimited tier. No account, no time limit, and no ads."
-excerpt: "Yes, it's free. We offer a completely free, unlimited tier in the TTSReader web player: no account, no time limit, no ads. Here it is on one article, from paste to play."
+excerpt: "Yes: the TTSReader web player has a completely free, unlimited tier, with no account, no time limit and no ads. Here's how to use it in five steps, and what the other apps offer for free."
 date: 2026-11-09T00:00:00+02:00
-lastmod: 2026-11-09T00:00:00+02:00
+lastmod: 2026-11-10T12:00:00+02:00
 draft: false
 weight: 50
 images: ["cover.jpg"]
@@ -14,29 +14,63 @@ pinned: false
 homepage: false
 ---
 
-Is TTSReader free? Yes. We offer a completely free tier in the TTSReader web player, and it's unlimited: no account, no time limit, and no ads. You open it and start listening.
-
-<!-- AMIEL: optional, one or two lines of your own here. Delete this comment when done. -->
+Is TTSReader free? Yes. The TTSReader web player has a completely free tier, and it's unlimited: no account, no time limit, and no ads.
 
 {{< youtube id="J1fhG2nPWpc" title="Is TTSReader Really Free? Yes: Free, Unlimited Text to Speech in Your Browser" >}}
 
 *On your phone? Watch the [Short](https://youtube.com/shorts/UW6rw-lZies).*
 
-Take a short article about how honey bees find their way home. Open [ttsreader.com/player](https://ttsreader.com/player/) in your browser; there's nothing to sign up for. Paste the article into the editor, or open a file, or a web page by its address. Then tap the voice, choose **Basic**, and pick one you like. That step matters: the player starts on a Premium voice, and playing a Premium voice asks you to sign in. The Basic voices are the free ones, and they're unlimited.
+## Listen to anything you'd otherwise read
 
-![The voice settings in the TTSReader web player with the Basic filter selected, listing the voices Mark, David and Zira.](03-choose-basic-voice.webp)
+In the video, it's a short article about how honey bees find their way home: paste it in, press play, and listen.
 
-Press play, and TTSReader reads the article aloud and highlights each sentence as it goes, starting with the title and moving on to the bee flying several kilometres from its hive. You can change the speed at any time, faster or slower. We tested the free tier the way a new visitor meets it, signed out in a fresh browser: the Basic voice David read for five minutes straight, with no prompt and no limit.
+![Cards for the news, a book, your own writing, study notes, a long email and a new language.](anything-you-read.webp)
 
-![The honey bee article playing in the TTSReader web player, its title highlighted in yellow.](04-press-play.webp)
+The bees stand in for anything you'd otherwise read: the news while you cook, a chapter of a book, your own writing, study notes, a long email, or a page in a language you're learning.
 
-The bees stand in for anything you'd otherwise read: the news while you cook, a chapter of a book, or your own writing read back to you, so you catch what your eyes skipped. If it's text, TTSReader can read it to you, for free.
+## How to use TTSReader for free
 
-Our other apps have a free tier as well, with some limits. The Chrome extension reads the web pages you visit; sign in with a free account, and its Basic voices are unlimited. On iPhone and Android, sign in for free, and the voices on your device are unlimited. You also get a free taste of the premium AI voices and MP3 downloads.
+### 1. Open the web player
 
-![Three cards for the other apps: the Chrome extension with a free account and unlimited Basic voices, and iPhone and Android with a free account and unlimited device voices. Below: a free taste of premium AI voices and MP3, and Premium if you want more.](other-apps.webp)
+Open [ttsreader.com/player](https://ttsreader.com/player/) in your browser. There's nothing to sign up for.
 
-Premium is there if you want more: natural AI voices, MP3 downloads, sync across your devices and AI features. The free plan is for personal use. For commercial use, publishing or selling the audio, the API, or use in a business or organization, see the [paid plans](https://ttsreader.com/docs/support/pricing/). For everything else, open the web player and paste in something you've been meaning to read.
+![The TTSReader web player opening at ttsreader.com/player.](01-open-the-player.webp)
+
+### 2. Paste in your text
+
+You can also open a file, or a web page by its address.
+
+![The honey bee article pasted into the TTSReader web player's editor.](02-paste-your-text.webp)
+
+### 3. Choose a Basic voice
+
+Tap the voice, choose **Basic**, and pick one you like. The Basic voices are the free ones, and they're unlimited.
+
+![The voice settings with the Basic filter selected: Mark, David and Zira.](03-choose-basic-voice.webp)
+
+### 4. Press play
+
+TTSReader reads your text aloud and highlights each sentence as it goes.
+
+![The honey bee article playing, its title highlighted.](04-press-play.webp)
+
+### 5. Set your speed
+
+You can change the speed at any time, faster or slower.
+
+![The article playing at 1.3× speed.](05-set-your-speed.webp)
+
+## The other apps have a free tier too
+
+With some limits. Sign in with a free account, and the Chrome extension's Basic voices are unlimited; on iPhone and Android, the voices on your device are unlimited. You also get a free taste of the premium AI voices and MP3 downloads.
+
+![Cards for the Chrome extension, iPhone and Android, each free with a free account.](other-apps.webp)
+
+Premium adds natural AI voices, MP3 downloads, sync across your devices and AI features. The free plan is for personal use; for commercial use, the API, or a business or organization, see the [paid plans](https://ttsreader.com/docs/support/pricing/).
+
+## Try it now
+
+If it's text, TTSReader can read it to you, for free.
 
 <p style="margin:auto;text-align: center;background-color: darkred;color: white;display: block; padding: 10px 20px; border-radius: 10px; font-size: larger;">
 <a style="color:white;font-weight: bold" href="https://ttsreader.com/player/" target="_blank">👉 &nbsp; OPEN THE TTSREADER WEB PLAYER, FREE</a>
@@ -44,7 +78,7 @@ Premium is there if you want more: natural AI voices, MP3 downloads, sync across
 
 <br/>
 
-New to TTSReader? See the [quick start guide](https://ttsreader.com/docs/guides/quick-start-new-player/). Want to compare the free and paid plans? See [plans and pricing](https://ttsreader.com/docs/support/pricing/).
+New to TTSReader? See the [quick start guide](https://ttsreader.com/docs/guides/quick-start-new-player/), or compare [plans and pricing](https://ttsreader.com/docs/support/pricing/).
 
 {{< details "Read the video's narration" >}}
 Is TTSReader free? Yes, it is. The TTSReader web player has a completely free tier, and it's unlimited. No account, no time limit, and no ads.

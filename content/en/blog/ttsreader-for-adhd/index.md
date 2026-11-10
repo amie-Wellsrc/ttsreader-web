@@ -1,9 +1,9 @@
 ---
 title: "TTSReader for ADHD: Reading That Works the Way Your Mind Does"
 description: "TTSReader for ADHD, reading that works the way your mind does: for ADHD Awareness Month, how TTSReader can make reading easier for people with ADHD."
-excerpt: "For many people with ADHD, reading takes real effort. One history chapter, due tomorrow, read with TTSReader: a voice and a highlight on the same line, your place kept, your own pace, and what a study found."
+excerpt: "For many people with ADHD, reading takes real effort. Five TTSReader features that help: a voice and a highlight to keep you focused, a marker that keeps your place, your own pace, the big picture first, and the freedom to move."
 date: 2026-10-13T12:00:00+03:00
-lastmod: 2026-10-13T12:00:00+03:00
+lastmod: 2026-11-10T12:00:00+02:00
 draft: false
 weight: 50
 images: ["cover.jpg"]
@@ -14,31 +14,57 @@ pinned: false
 homepage: false
 ---
 
-October is ADHD Awareness Month, so we are using it to show what TTSReader does for people with ADHD. For many of them, reading takes real effort. Getting focused is hard, and every distraction pulls you off the page. TTSReader reads your text aloud with you, and a few of its features work on exactly that.
-
-<!-- AMIEL: optional, one or two lines of your own here. Delete this comment when done. -->
+For ADHD Awareness Month: how TTSReader can make reading easier for people with ADHD.
 
 {{< youtube id="yTj37tH3Tzc" title="TTSReader for ADHD: Reading That Works the Way Your Mind Does" >}}
 
 *On your phone? Watch the [Short](https://youtube.com/shorts/nIJeNLYCYqs).*
 
-Take a history chapter on the printing press, due tomorrow. You sit down to read it, and the page has competition: a new message, a sudden "did I reply to Sam?", the next episode starting in five minutes.
+## Why reading takes effort
+
+For many people with ADHD, reading takes real effort. Getting focused is hard, and every distraction pulls you off the page. Picture a history chapter on the printing press, due tomorrow: you sit down to read it, and a new message arrives, then a sudden "did I reply to Sam?", then the next episode starting in five minutes.
 
 ![A page titled The Printing Press with distractions popping up around it: "New message", "Did I reply to Sam?", "Next episode in 5".](reading-takes-effort.webp)
 
-So press play instead. TTSReader reads the chapter aloud and highlights each sentence as it's spoken. Your eyes and your ears follow the same line, so there's one thing to focus on. A study looked at exactly that pairing: in a study of twenty college students with attention disorders, reading with a voice and highlighting, the students said their thoughts wandered less. They read for longer, with less stress and fatigue. The study, Hecker, Burns, Elkind, Elkind and Katz (2002), *Benefits of assistive reading software for students with attention disorders*, Annals of Dyslexia 52, compared each student's reading with and without software that speaks the text with synchronized highlighting. That software wasn't TTSReader, the findings above are partly the students' own reports, and the study found no significant effect on comprehension.
+The same thing happens with a chapter for class, an article you saved to read later, or a long document at work. TTSReader reads the text aloud with you, and five of its features help with exactly that.
+
+## How to use TTSReader when focus is hard
+
+### 1. Press play and follow the highlight
+
+TTSReader reads the text aloud and highlights each sentence as it's spoken. Your eyes and your ears follow the same line, so there's one thing to focus on.
 
 ![The history chapter playing in TTSReader on a phone, the sentence being read highlighted.](01-focus.webp)
 
-The distractions still come. When the group chat lights up and pulls you away, the highlight is still there when you look back, marking exactly where you left off, and you carry on from that sentence instead of hunting for it.
+### 2. Let the highlight keep your place
+
+When something does pull you away, the highlight is still there, marking exactly where you left off. You carry on from that sentence instead of hunting for it.
 
 ![A group-chat notification over the reader; below it, the sentence being read is still highlighted.](02-your-place.webp)
 
-The pace is yours as well. Tap the speed button to speed it up while you're in the flow, and slow it down when a paragraph gets dense. Playback Speed goes from 0.5× to 2×, and you can change it while it plays. And if the chapter feels hard to start at all, open the ⋯ menu and tap **AI › Summarize**. It writes a short summary as a new document, so you hear the main points first and know where the chapter is going before you dive in. Summarize is a Premium feature.
+### 3. Set your own pace
 
-If you think better on the move, lock the screen and take the chapter for a walk. TTSReader keeps reading, with the controls on the lock screen. The same goes for a long document at work, not only for class.
+Tap the speed button. Speed it up while you're in the flow, and slow it down when a paragraph gets dense. Playback Speed goes from 0.5× to 2×, and you can change it while it plays.
+
+![The Playback Speed panel over the chapter, with the slider at 1.5× on a scale from 0.5× to 2×.](03-your-pace.webp)
+
+### 4. Hear the big picture first
+
+If a long chapter feels hard to start, open the ⋯ menu and tap **AI › Summarize**. It writes a short summary as a new document, so you hear the main points first and know where the chapter is going before you dive in. Summarize is a Premium feature.
+
+![A summary of the printing-press chapter in three bullet points, the first one highlighted as it's read.](04-big-picture.webp)
+
+### 5. Keep moving
+
+If you think better on the move, lock the screen. TTSReader keeps reading while you walk, with the controls on the lock screen.
 
 ![On a walk, the phone's lock screen showing Chapter 4: The Printing Press still playing.](05-keep-moving.webp)
+
+## What a study found
+
+In a study of twenty college students with attention disorders, reading with a voice and highlighting, the students said their thoughts wandered less. They read for longer, with less stress and fatigue. The study (Hecker et al., 2002, *Annals of Dyslexia*) used other software, not TTSReader, its findings are partly the students' own reports, and it found no significant effect on comprehension.
+
+## Read it your way
 
 A voice and a highlight to keep you focused, a marker that keeps your place, your own pace, the big picture first, and the freedom to move: reading that works the way your mind does.
 

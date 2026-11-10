@@ -1,9 +1,9 @@
 ---
 title: "Classics, Read Aloud: Listen to Classic Literature with TTSReader"
 description: "Hundreds of the world's greatest classics are ready for you in TTSReader, open and at no extra cost."
-excerpt: "Hundreds of the world's great classics are in TTSReader's Discover tab, open and at no extra cost. Pick one, press play, and take the story with you on the drive, the errands or a walk."
+excerpt: "Hundreds of the world's greatest classics are in TTSReader, open and at no extra cost. Open Discover, pick a book, press play, and listen at your own pace, in the background or offline with Premium."
 date: 2026-11-09T00:00:00+02:00
-lastmod: 2026-11-09T00:00:00+02:00
+lastmod: 2026-11-10T12:00:00+02:00
 draft: false
 weight: 50
 images: ["cover.jpg"]
@@ -14,27 +14,65 @@ pinned: false
 homepage: false
 ---
 
-TTSReader reads the classics to you. We have put hundreds of the world's greatest books in the app, open and at no extra cost, and any book from Project Gutenberg comes in with its link. With a voice reading, a great novel fits into the hours you spend driving, running errands or out on a walk.
-
-<!-- AMIEL: optional, one or two lines of your own here. Delete this comment when done. -->
+Hundreds of the world's greatest classics are ready for you in TTSReader, open and at no extra cost.
 
 {{< youtube id="mSE_kizP8ek" title="Classics, Read Aloud: Listen to Classic Literature with TTSReader" >}}
 
 *On your phone? Watch the [Short](https://youtube.com/shorts/TjYmrWfF-Yk).*
 
-Every great story starts with a first line: "Call me Ishmael." "All children, except one, grow up." "To Sherlock Holmes she is always the woman." TTSReader reads the rest to you. Take *Pride and Prejudice*. Open the **Discover** tab and it's on the **Books** shelf, next to *Frankenstein* and *The Adventures of Sherlock Holmes*, with *Peter Pan* further down on the Children shelf.
+## Every great story starts with a first line
 
-![The Discover tab on a phone, with Frankenstein, The Adventures of Sherlock Holmes and Pride and Prejudice on the Books shelf.](01-open-discover.webp)
+"Call me Ishmael." "All children, except one, grow up." "To Sherlock Holmes she is always the woman." TTSReader reads the rest to you.
 
-Sign in with a free account, tap the book, and it opens chapter by chapter, at Chapter I. Press play, and "It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife." begins. The sentence being read lights up as it goes, so you can follow along with your eyes when you want to. Set the pace that suits you, faster or slower.
+![Peter Pan open at its first line, "All children, except one, grow up."](first-lines.webp)
 
-![Chapter I of Pride and Prejudice with its first sentence highlighted in yellow as it is read.](highlight.webp)
+Choose *Moby-Dick*, *Pride and Prejudice* or *Anna Karenina*, or bring any book from Project Gutenberg with its link, and take the story along while you drive, run errands, or walk.
 
-On your phone, it keeps playing in the background, with the screen locked. The Bennet sisters come along while you drive, shop at the market or walk in the park. When you finish, *Moby-Dick*, *Anna Karenina* and the rest of the shelf are there, or bring a book from Project Gutenberg by pasting its link.
+## How to listen to classic literature with TTSReader
 
-![A phone lock screen playing Peter Pan, next to scenes of driving, shopping at a market and walking in a park.](background.webp)
+### 1. Open Discover
 
-The classics are open to everyone with a free account, at no extra cost. With Premium, you can also download chapters as MP3s and listen offline, anywhere. Every voice in the video, including the three that read the first lines, was made with TTSReader. Pick a classic, and press play.
+Open the **Discover** tab: the classics are on the **Books** shelf.
+
+![The Discover tab, with Frankenstein, Sherlock Holmes and Pride and Prejudice on the Books shelf.](01-open-discover.webp)
+
+### 2. Pick a book
+
+Sign in with a free account, tap a book, and it opens chapter by chapter.
+
+![Pride and Prejudice opening at Chapter I.](02-pick-a-book.webp)
+
+### 3. Press play
+
+Press play, then sit back and enjoy a great story.
+
+![Chapter I of Pride and Prejudice playing.](03-press-play.webp)
+
+### 4. Listen at your own pace
+
+Listen faster or slower.
+
+![Pride and Prejudice playing at 0.85× speed.](04-your-pace.webp)
+
+### 5. Follow along
+
+Each sentence is highlighted as it's read.
+
+![The first sentence of Pride and Prejudice highlighted as it's read.](05-follow-along.webp)
+
+## Keep listening in the background
+
+On your phone, it keeps playing in the background, while you drive, run errands, or go for a walk.
+
+![A lock screen playing Peter Pan, beside scenes of driving, a market and a park.](background.webp)
+
+## Offline with Premium
+
+With Premium, download chapters as MP3s to listen offline, anywhere.
+
+## Pick a classic
+
+Every voice in the video was made with TTSReader. Pick a classic, and press play.
 
 <p style="margin:auto;text-align: center;background-color: darkred;color: white;display: block; padding: 10px 20px; border-radius: 10px; font-size: larger;">
 <a style="color:white;font-weight: bold" href="https://ttsreader.com/player/" target="_blank">👉 &nbsp; OPEN TTSREADER AND PICK A CLASSIC</a>
@@ -49,7 +87,7 @@ Use TTSReader to listen to classic literature.
 
 Call me Ishmael. All children, except one, grow up. To Sherlock Holmes she is always the woman.
 
-Hundreds of the world's greatest classics are ready for you, open and at no extra cost. Open Discover, pick a book, and press play. Then sit back and enjoy a great story.
+Hundreds of the world's greatest classics are ready for you, open and at no extra cost. Open Discover, pick a book, and press play. Press play, then sit back and enjoy a great story.
 
 Listen at your own pace, faster or slower. Follow along as each sentence is highlighted. On your phone, it keeps playing in the background, while you drive, run errands, or go for a walk. And with Premium, download chapters to listen offline.
 

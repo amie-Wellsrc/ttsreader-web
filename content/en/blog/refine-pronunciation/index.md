@@ -1,9 +1,9 @@
 ---
 title: "Using TTSReader to Refine Your Pronunciation: American and British English"
 description: 'Hear it first: "tomato" has two correct pronunciations, American and British. Hearing the difference is where good pronunciation starts.'
-excerpt: "To say a word right, you first have to hear it. What a 2025 study found when beginners practiced English pronunciation with TTSReader, and how to practice the same way: your accent, half speed, Loop."
+excerpt: "To say a word right, you first have to hear it. Practice pronunciation with TTSReader in three steps: pick your accent, slow it down, turn on Loop. Plus what a 2025 study found with beginners."
 date: 2026-11-09T00:00:00+02:00
-lastmod: 2026-11-09T00:00:00+02:00
+lastmod: 2026-11-10T12:00:00+02:00
 draft: false
 weight: 50
 images: ["cover.jpg"]
@@ -14,31 +14,49 @@ pinned: false
 homepage: false
 ---
 
-To say a word right, you first have to hear it. TTSReader lets a learner hear English read aloud in the accent they are learning, at their own speed, as often as they need. In 2025 a study measured what that did for beginners who practiced pronunciation with it.
-
-<!-- AMIEL: optional, one or two lines of your own here. Delete this comment when done. -->
+Learning a new language? Use TTSReader to refine your pronunciation, in American or British English.
 
 {{< youtube id="rgyT4fM2VFI" title="Using TTSReader to Refine Your Pronunciation: American and British English" >}}
 
 *On your phone? Watch the [Short](https://youtube.com/shorts/DI2uQutpsg8).*
 
-"Tomato" shows the problem in one word. I say *tomayto*, you say *tomahto*: American English says tuh-MAY-toh, British English says tuh-MAH-toh, and both are correct. A learner reading the word on a page sees the same six letters either way. The difference is only in the sound, so the sound is where good pronunciation starts.
+## Hear it first
+
+I say *tomayto*, you say *tomahto*: American English says tuh-MAY-toh, British English tuh-MAH-toh, and both are correct. On the page it's the same six letters; the difference is only in the sound. To say a word right, you first have to hear it.
 
 ![Two drawn speakers, each with the word tomato: the American reads tuh-MAY-toh, the British tuh-MAH-toh, and between them the words "Hear it first."](hear-it-first.webp)
 
-The study was done at a university in Türkiye. Fourteen university students, beginners in English, practiced with TTSReader for four weeks. Their teacher projected a passage, and they listened while TTSReader read it aloud and highlighted each sentence. Then they read it back themselves, as many times as they needed. Their pronunciation improved in all nine sound groups tested: the "th" sounds, "ng", "ph", and the silent letters k, h, l, t and b. The "ng" sound, as in *sing*, went from 43% to 87% correct, and the silent l in *could* from 16% to 69%. All fourteen students said it can lower their anxiety about pronunciation. One class of 14, four weeks, no control group: the author reports these limits herself.
+Practice on your own, at your speed, as often as you need. Or, in class, project a passage and let TTSReader be the model voice that repeats it as often as your students need.
 
-![A bar chart of words said correctly before and after four weeks, for nine sound groups, from th in three to silent b in debt; ng in sing goes from 43 to 87 percent and silent l in could from 16 to 69.](results.webp)
+## How to practice your pronunciation
 
-You can practice the same way on your own. Open a passage in the [TTSReader web player](https://ttsreader.com/player/) and pick the accent you're learning: switch the region to **United States** or **United Kingdom** and choose a voice. The video uses John Premium for American English and wAI Alice for British. Then tap the **−** button under **Playback Speed** until it reaches half speed (0.5×), and a long word comes apart into its syllables: pro·nun·ci·a·tion.
+### 1. Pick the accent you're learning
+
+Open a passage in the [TTSReader web player](https://ttsreader.com/player/), switch the region to **United States** or **United Kingdom**, and choose a voice. The video uses John Premium for American English and wAI Alice for British.
+
+![The Playback settings with the Region / Accent menu set to United States, outlined in red, and John Premium selected.](01-pick-accent.webp)
+
+### 2. Slow it down
+
+Slow it down, all the way to half speed (0.5×), with the **−** button under **Playback Speed**.
 
 ![The voice settings with the region set to United States, Playback Speed at 0.5 after the minus button, and John Premium selected.](02-slow-down.webp)
 
-Last, turn on **Loop**, and the text plays again from the top each time it ends. Listen, say it back, and compare, as many times as you need.
+### 3. Turn on Loop
+
+Turn on **Loop**, and it plays again from the top. Listen, say it back, and compare.
 
 ![The player controls with the Loop button turned on, outlined in red.](03-loop.webp)
 
-A teacher can run it the way the study did: project a passage and let TTSReader read it, a model voice that repeats it as often as the class needs. Pick your accent, slow it down, and loop it.
+## What a study found
+
+In 2025, a study at a university in Türkiye tested this with TTSReader. Fourteen beginner students listened while it read a passage aloud and highlighted each sentence, then read it back themselves, for four weeks. Their pronunciation improved in all nine sound groups tested: "ng", as in *sing*, went from 43% to 87% correct, and the silent l in *could* from 16% to 69%. All fourteen said it can lower their anxiety about pronunciation. One class of 14, four weeks, no control group: the author reports these limits herself.
+
+![A bar chart of words said correctly before and after four weeks, for nine sound groups, from th in three to silent b in debt; ng in sing goes from 43 to 87 percent and silent l in could from 16 to 69.](results.webp)
+
+## Pick it, slow it, loop it
+
+Pick your accent, slow it down, and loop it.
 
 <p style="margin:auto;text-align: center;background-color: darkred;color: white;display: block; padding: 10px 20px; border-radius: 10px; font-size: larger;">
 <a style="color:white;font-weight: bold" href="https://ttsreader.com/player/" target="_blank">👉 &nbsp; TRY TTSREADER NOW</a>

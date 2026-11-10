@@ -1,9 +1,9 @@
 ---
 title: "Share What You Make with TTSReader: One Link for Your Class and Your Friends"
 description: "Share what you make with TTSReader: every audio file gets its own link, so you post it once for the whole class, or send it to your friends."
-excerpt: "Every file you make in TTSReader gets its own share link. Post it once, and a whole class can listen, tap through the transcript and print it, with no account."
+excerpt: "Every audio file you make in TTSReader gets its own share link. Post it once, and your class or your friends listen in any browser, tap through the transcript, and download it as a handout or subtitles."
 date: 2026-10-11T12:00:00+03:00
-lastmod: 2026-10-11T12:00:00+03:00
+lastmod: 2026-11-10T12:00:00+02:00
 draft: false
 weight: 50
 images: ["cover.jpg"]
@@ -14,33 +14,65 @@ pinned: false
 homepage: false
 ---
 
-We give every audio file you make in TTSReader its own share link. You post it once, and a whole class, or a friend, can listen in any browser, with no account needed. The page behind that link carries more than the audio: the transcript, a printable handout and subtitles all come from the same place.
-
-<!-- AMIEL: optional, one or two lines of your own here. Delete this comment when done. -->
+Share what you make with TTSReader: one link for your class, or for your friends.
 
 {{< youtube id="W8pRr8v-mE4" title="Share What You Make with TTSReader: One Link for Your Class and Your Friends" >}}
 
 *On your phone? Watch the [one-minute Short](https://youtube.com/shorts/cwEhOltwtAA).*
 
-Take Ms. Ortiz, who teaches grade 8 English. Tomorrow's poem is Robert Frost's "The Road Not Taken", and tonight she turns it into audio for her class. When the file is ready it has its own share page, and at the bottom of that page is its link. She copies it and posts it once, for the whole class. The link is unlisted: anyone who has it can open it, and the address carries a secret code, so it isn't something people find by searching.
+## One link for the whole class
 
-![The share page of the poem: Download MP3, the timed-text downloads, and the share link highlighted at the bottom.](01-share-link.webp)
+Ms. Ortiz turns tomorrow's poem, Robert Frost's "The Road Not Taken", into audio for her class. The file gets its own share link, so she posts it once, and her students open it in any browser, no account needed.
 
-Her students open it on whatever they have, a phone, a laptop or a tablet, signed out. The page plays the poem next to its transcript, and the line being read is highlighted as it goes. A tap on any line of the transcript jumps back to it and plays it again, which is how a student goes over "And looked down one as far as I could" until it sticks.
+![Ms. Ortiz, a grade 8 teacher, next to her laptop with "The Road Not Taken" open in TTSReader.](ms-ortiz.webp)
 
-![The share page on a phone, the poem's transcript beside its timestamps, one line highlighted as it plays.](03-tap-a-line.webp)
+A teacher posts a lesson for the class. A student listens, taps back through the lines, and gets a printable handout. A friend gets your essay in a chat and listens on the bus.
 
-The same page turns the poem into material for the lesson. Ms. Ortiz downloads the transcript as a printable PDF, a handout for every desk; it also comes as a Word or plain-text file. And it comes as SRT or VTT subtitles, timed to the audio, for the video her class is making about the poem.
+## How to share your audio
 
-![The class's poem video, a yellow wood where two roads part, with the poem's first line as a subtitle and the SRT track on the timeline below.](subtitles.webp)
+### 1. Turn your text into audio
 
-With Premium, each export can also go to her personal podcast channel, so the class can follow her readings in a podcast app (the [guide to creating a podcast](https://ttsreader.com/docs/guides/create-podcasts/) shows how, and [how TTSReader lets anyone create a free podcast channel](https://ttsreader.com/blog/ttsreader-lets-anyone-create-a-free-podcast-channel/) tells more). As a Premium user she also owns the copyrights to the exported audio, so the recording is hers to publish on the school website.
+Make an audio file from your text in TTSReader.
 
-Friends share the same way. Maya finishes her history essay, turns it into audio and sends Sam the link in a chat. He opens it on the bus, with headphones, and listens on the way.
+![The Instant MP3 / WAV generation window in TTSReader, with the Create & Download MP3 button highlighted.](01-make-audio.webp)
+
+### 2. Post the link once
+
+Every file gets its own share link. Copy it from the bottom of its share page and post it once, for everyone.
+
+![The share page of the poem: Download MP3, the timed-text downloads, and the share link highlighted at the bottom.](02-share-link.webp)
+
+### 3. Open it in any browser, no account needed
+
+Students open it on whatever they have, a phone, a laptop or a tablet, signed out.
+
+![The poem's share page open on a phone, a laptop and a tablet, signed out, with three students below them.](03-any-browser.webp)
+
+### 4. Tap a line to play it again
+
+The share page plays the audio next to its transcript. Tap any line, and it plays again.
+
+![The share page on a phone, the poem's transcript beside its timestamps, one line highlighted as it plays.](04-tap-a-line.webp)
+
+### 5. Download a handout or subtitles
+
+From the same page, download the transcript as a printable PDF for every desk, as a Word or plain-text file, or as SRT and VTT subtitles for the video the class is making.
+
+![The share page's download list on a phone, with PDF (Printable) outlined in red next to DOCX, VTT, SRT and TXT.](05-handout.webp)
+
+## With Premium
+
+Each export can also go to your personal podcast channel (see the [guide to creating a podcast](https://ttsreader.com/docs/guides/create-podcasts/) and [how TTSReader lets anyone create a free podcast channel](https://ttsreader.com/blog/ttsreader-lets-anyone-create-a-free-podcast-channel/)). And you own the copyrights to the exported audio, so it's yours to publish, for example on the school website.
+
+## Friends share the same way
+
+Maya sends Sam the link to her history essay, and he listens on the bus.
 
 ![Maya's chat with Sam, a TTSReader link in it, and Sam on the bus listening to her essay on his phone.](friends.webp)
 
-Turn your text into audio, then send the link. One link gives your class or your friends the audio and its transcript.
+## Send the link
+
+Turn your text into audio, and send the link.
 
 <p style="margin:auto;text-align: center;background-color: darkred;color: white;display: block; padding: 10px 20px; border-radius: 10px; font-size: larger;">
 <a style="color:white;font-weight: bold" href="https://ttsreader.com/player/" target="_blank">👉 &nbsp; OPEN TTSREADER</a>
