@@ -10,7 +10,7 @@
   <link rel="icon" href="/favicon2.svg" type="image/svg+xml" />
   <!--
     OAuth consent page for apps connecting to TTSReader (the ChatGPT app first). Talks only to its own origin:
-      GET  /oauth/request/{req}  → {clientName, clientHost, logoUri, expiresAt, scopes:[{scope, description}]}
+      GET  /oauth/request/{req}  → {clientName, clientHost, returnHost, localApp, logoUri, expiresAt, scopes:[{scope, description}]}
       POST /oauth/consent        (Authorization: Bearer <Firebase ID token>) {requestId, allow} → {redirectTo}
     Both are served by the apiV1 function through hosting rewrites (ttsreader-fb-functions, helpers/apiV1/oauth).
     Sign-in: Google and Apple, the same Firebase project and pattern as /_dev/x/auth/new.html.
@@ -129,7 +129,13 @@
   }
   $("clientName").textContent = info.clientName || "An app";
   $("clientName2").textContent = info.clientName || "this app";
-  if (info.clientHost) $("clientHost").textContent = `From ${info.clientHost}`;
+  // Who is asking: the host the app's details were fetched from (the name above is the app's own claim). And where
+  // "Allow" sends you: the same site, or — for a program on this computer, such as Claude Code — back to that program.
+  if (info.clientHost) {
+    $("clientHost").textContent = info.localApp
+      ? `From ${info.clientHost}. After you allow, you return to a program running on this computer (${info.returnHost}). Allow only if you started this from an app on this computer just now.`
+      : (info.returnHost && info.returnHost !== info.clientHost ? `From ${info.clientHost}. After you allow, you return to ${info.returnHost}.` : `From ${info.clientHost}`);
+  }
   if (typeof info.logoUri === "string" && info.logoUri.startsWith("https://")) {
     $("clientLogo").src = info.logoUri; $("clientLogo").hidden = false;
     $("clientLogo").onerror = () => { $("clientLogo").hidden = true; };
