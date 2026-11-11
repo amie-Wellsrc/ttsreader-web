@@ -33,7 +33,23 @@
           "functionId": "functionTtsLong",
           "region": "us-central1"
         }
-      }
+      },
+      { "source": "/mcp", "function": { "functionId": "apiV1", "region": "us-central1" } },
+      { "source": "/mcp/docs", "function": { "functionId": "apiV1", "region": "us-central1" } },
+      { "source": "/api/v1/**", "function": { "functionId": "apiV1", "region": "us-central1" } },
+      { "source": "/api/llms.txt", "function": { "functionId": "apiV1", "region": "us-central1" } },
+      { "source": "/api/llms-full.txt", "function": { "functionId": "apiV1", "region": "us-central1" } },
+      { "source": "/oauth/authorize", "function": { "functionId": "apiV1", "region": "us-central1" } },
+      { "source": "/oauth/request/**", "function": { "functionId": "apiV1", "region": "us-central1" } },
+      { "source": "/oauth/consent", "function": { "functionId": "apiV1", "region": "us-central1" } },
+      { "source": "/oauth/token", "function": { "functionId": "apiV1", "region": "us-central1" } },
+      { "source": "/oauth/revoke", "function": { "functionId": "apiV1", "region": "us-central1" } },
+      { "source": "/oauth/jwks.json", "function": { "functionId": "apiV1", "region": "us-central1" } },
+      { "source": "/.well-known/oauth-protected-resource", "function": { "functionId": "apiV1", "region": "us-central1" } },
+      { "source": "/.well-known/oauth-protected-resource/mcp", "function": { "functionId": "apiV1", "region": "us-central1" } },
+      { "source": "/.well-known/oauth-authorization-server", "function": { "functionId": "apiV1", "region": "us-central1" } },
+      { "source": "/.well-known/openid-configuration", "function": { "functionId": "apiV1", "region": "us-central1" } },
+      { "source": "/.well-known/openai-apps-challenge", "function": { "functionId": "apiV1", "region": "us-central1" } }
     ],
     "redirects": [
       {
@@ -243,6 +259,15 @@
       }
     ],
     "headers": [
+      {
+        "source": "/oauth/connect/**",
+        "headers": [
+          { "key": "Content-Security-Policy", "value": "frame-ancestors 'none'" },
+          { "key": "X-Frame-Options", "value": "DENY" },
+          { "key": "Cache-Control", "value": "no-store" },
+          { "key": "Referrer-Policy", "value": "no-referrer" }
+        ]
+      },
       {
         "source": "**/*.@(jpg|jpeg|gif|png|ttf|woff|woff2|svg|eot)",
         "headers": [

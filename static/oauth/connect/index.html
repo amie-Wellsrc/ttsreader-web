@@ -104,9 +104,13 @@
   const show = (id) => { for (const s of ["loading", "problem", "request"]) $(s).hidden = s !== id; };
   const problem = (title, text) => { $("problemTitle").textContent = title; $("problemText").textContent = text; show("problem"); };
   const EXPIRED = ["This request has expired", "Go back to ChatGPT (or the app you came from) and connect again."];
+  // the request belongs to the browser that started it (a cookie set by /oauth/authorize): a link passed on, or opened
+  // in another browser, is refused by the server
+  const OTHER_BROWSER = ["Open this from the app you are connecting", "This link was opened in a different browser from the one that started it, so it cannot be used here. Go back to ChatGPT (or the app you came from) and connect again."];
 
   const requestId = new URLSearchParams(location.search).get("req") || "";
-  if (!/^\d{15}-[A-Za-z0-9_-]{22}$/.test(requestId)) {
+  // the signed request from /oauth/authorize: three base64url parts
+  if (requestId.length > 4096 || !/^[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+$/.test(requestId)) {
     problem("This link is not complete", "Go back to ChatGPT (or the app you came from) and connect again.");
     throw new Error("no request id");
   }
@@ -116,6 +120,7 @@
   try {
     const r = await fetch(`/oauth/request/${encodeURIComponent(requestId)}`, { cache: "no-store" });
     if (r.status === 404) { problem(...EXPIRED); throw new Error("expired"); }
+    if (r.status === 403) { problem(...OTHER_BROWSER); throw new Error("other browser"); }
     if (!r.ok) { problem("TTSReader is not reachable right now", "Please try again in a minute."); throw new Error("request " + r.status); }
     info = await r.json();
   } catch (e) {
@@ -203,6 +208,7 @@
       return;
     }
     if (r.status === 404) { problem(...EXPIRED); return; }
+    if (r.status === 403) { problem(...OTHER_BROWSER); return; }
     if (r.status === 401) { setBusy(false); await signOut(auth); $("signinError").textContent = "Your sign-in expired. Please sign in again."; $("signinError").hidden = false; return; }
     fail((body && body.error && body.error.message) || "Something went wrong. Please try again.");
   }
