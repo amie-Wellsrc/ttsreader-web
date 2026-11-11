@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- the request id is in the URL: never send it to gstatic, Google/Apple or the client's logo host -->
+  <meta name="referrer" content="no-referrer" />
+  <title>Connect to TTSReader</title>
+  <link rel="icon" href="/favicon2.svg" type="image/svg+xml" />
+  <!--
+    OAuth consent page for apps connecting to TTSReader (the ChatGPT app first). Talks only to its own origin:
+      GET  /oauth/request/{req}  → {clientName, clientHost, logoUri, expiresAt, scopes:[{scope, description}]}
+      POST /oauth/consent        (Authorization: Bearer <Firebase ID token>) {requestId, allow} → {redirectTo}
+    Both are served by the apiV1 function through hosting rewrites (ttsreader-fb-functions, helpers/apiV1/oauth).
+    Sign-in: Google and Apple, the same Firebase project and pattern as /_dev/x/auth/new.html.
+  -->
+  <style>
+    :root {
+      --bg: #f5f6f8; --card: #ffffff; --text: #16181d; --muted: #5c6370; --line: #e3e6eb;
+      --accent: #2563eb; --accent-text: #ffffff; --danger: #b42318; --focus: #93b4f8;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #111317; --card: #1b1e24; --text: #eceef2; --muted: #a0a7b4; --line: #2d323b;
+              --accent: #5b8cf5; --accent-text: #0b0d10; --danger: #f97066; --focus: #3b5ea8; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: var(--bg); color: var(--text);
+           font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+           display: flex; align-items: flex-start; justify-content: center; padding: 48px 16px; }
+    main { width: 100%; max-width: 440px; background: var(--card); border: 1px solid var(--line);
+           border-radius: 14px; padding: 28px 24px; }
+    .brand { display: flex; align-items: center; gap: 10px; font-weight: 600; margin-bottom: 20px; }
+    .brand img { width: 28px; height: 28px; }
+    .client { display: flex; align-items: center; gap: 12px; margin-bottom: 4px; }
+    .client img { width: 40px; height: 40px; border-radius: 8px; object-fit: contain; }
+    h1 { font-size: 20px; line-height: 1.3; margin: 0 0 6px; }
+    p { margin: 0 0 12px; }
+    .muted { color: var(--muted); font-size: 14px; }
+    ul.scopes { list-style: none; padding: 0; margin: 16px 0; border-top: 1px solid var(--line); }
+    ul.scopes li { padding: 10px 0 10px 26px; border-bottom: 1px solid var(--line); position: relative; }
+    ul.scopes li::before { content: "✓"; position: absolute; left: 4px; color: var(--accent); font-weight: 700; }
+    .account { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;
+               background: var(--bg); border-radius: 10px; padding: 10px 12px; margin: 16px 0; font-size: 14px; }
+    .account b { word-break: break-all; }
+    button { font: inherit; border-radius: 10px; padding: 11px 16px; cursor: pointer; border: 1px solid var(--line);
+             background: var(--card); color: var(--text); width: 100%; }
+    button:focus-visible, a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+    button:disabled { opacity: .6; cursor: default; }
+    button.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-text); font-weight: 600; }
+    button.link { width: auto; border: 0; padding: 0; background: none; color: var(--accent); font-size: 14px; }
+    .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; }
+    .stack { display: grid; gap: 10px; margin-top: 16px; }
+    .error { color: var(--danger); }
+    [hidden] { display: none !important; }
+  </style>
+</head>
+<body>
+<main aria-live="polite">
+  <div class="brand"><img src="/favicon2.svg" alt="" />TTSReader</div>
+
+  <section id="loading"><p class="muted">Loading…</p></section>
+
+  <section id="problem" hidden>
+    <h1 id="problemTitle">Something went wrong</h1>
+    <p id="problemText"></p>
+  </section>
+
+  <section id="request" hidden>
+    <div class="client"><img id="clientLogo" alt="" hidden /><h1><span id="clientName"></span> wants to connect to your TTSReader account</h1></div>
+    <p class="muted" id="clientHost"></p>
+
+    <div id="signin" hidden>
+      <p>Sign in to TTSReader to continue.</p>
+      <div class="stack">
+        <button id="googleBtn" type="button">Sign in with Google</button>
+        <button id="appleBtn" type="button">Sign in with Apple</button>
+      </div>
+      <p class="muted error" id="signinError" hidden></p>
+    </div>
+
+    <div id="consent" hidden>
+      <div class="account"><span>Signed in as <b id="accountEmail"></b></span><button class="link" id="switchBtn" type="button">Not you? Switch account</button></div>
+      <p>This will let <b id="clientName2"></b>:</p>
+      <ul class="scopes" id="scopes"></ul>
+      <p class="muted">You can disconnect it at any time. Deleting your TTSReader account also disconnects it.</p>
+      <div class="actions">
+        <button id="denyBtn" type="button">Deny</button>
+        <button id="allowBtn" class="primary" type="button">Allow</button>
+      </div>
+      <p class="muted error" id="consentError" hidden></p>
+    </div>
+  </section>
+</main>
+
+<script type="module">
+  // Never inside a frame: a framed consent page could be clickjacked into "Allow".
+  if (window.top !== window.self) {
+    document.body.textContent = "This page can't be shown inside another page.";
+    throw new Error("framed");
+  }
+
+  const $ = (id) => document.getElementById(id);
+  const show = (id) => { for (const s of ["loading", "problem", "request"]) $(s).hidden = s !== id; };
+  const problem = (title, text) => { $("problemTitle").textContent = title; $("problemText").textContent = text; show("problem"); };
+  const EXPIRED = ["This request has expired", "Go back to ChatGPT (or the app you came from) and connect again."];
+
+  const requestId = new URLSearchParams(location.search).get("req") || "";
+  if (!/^\d{15}-[A-Za-z0-9_-]{22}$/.test(requestId)) {
+    problem("This link is not complete", "Go back to ChatGPT (or the app you came from) and connect again.");
+    throw new Error("no request id");
+  }
+
+  // ---- the request: who is asking, and for what ----
+  let info;
+  try {
+    const r = await fetch(`/oauth/request/${encodeURIComponent(requestId)}`, { cache: "no-store" });
+    if (r.status === 404) { problem(...EXPIRED); throw new Error("expired"); }
+    if (!r.ok) { problem("TTSReader is not reachable right now", "Please try again in a minute."); throw new Error("request " + r.status); }
+    info = await r.json();
+  } catch (e) {
+    if ($("problem").hidden) problem("TTSReader is not reachable right now", "Check your connection and try again.");
+    throw e;
+  }
+  $("clientName").textContent = info.clientName || "An app";
+  $("clientName2").textContent = info.clientName || "this app";
+  if (info.clientHost) $("clientHost").textContent = `From ${info.clientHost}`;
+  if (typeof info.logoUri === "string" && info.logoUri.startsWith("https://")) {
+    $("clientLogo").src = info.logoUri; $("clientLogo").hidden = false;
+    $("clientLogo").onerror = () => { $("clientLogo").hidden = true; };
+  }
+  for (const s of info.scopes || []) {
+    const li = document.createElement("li");
+    li.textContent = s.description || s.scope;
+    $("scopes").appendChild(li);
+  }
+  // the request lives 10 minutes; after that the server refuses it anyway, so say so instead of failing on Allow
+  const msLeft = Number(info.expiresAt) - Date.now();
+  if (msLeft > 0) setTimeout(() => problem(...EXPIRED), msLeft);
+  show("request");
+
+  // ---- Firebase sign-in (same project and SDK as the site's standalone auth page) ----
+  const { initializeApp } = await import("https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js");
+  const { getAuth, onAuthStateChanged, signInWithPopup, signOut, GoogleAuthProvider, OAuthProvider } =
+    await import("https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js");
+  const app = initializeApp({
+    apiKey: "AIzaSyAdBWmw443huodq-KKwsbZtRWFy-biilRg",
+    authDomain: "ttsreader.firebaseapp.com",
+    databaseURL: "https://ttsreader.firebaseio.com",
+    projectId: "ttsreader",
+    storageBucket: "ttsreader.appspot.com",
+    messagingSenderId: "656667743185",
+    appId: "1:656667743185:web:85af89b663f07af34246f0",
+  });
+  const auth = getAuth(app);
+
+  let busy = false;
+  const setBusy = (b) => { busy = b; for (const id of ["allowBtn", "denyBtn", "switchBtn", "googleBtn", "appleBtn"]) $(id).disabled = b; };
+
+  onAuthStateChanged(auth, (u) => {
+    if (busy) return;
+    $("signin").hidden = !!u;
+    $("consent").hidden = !u;
+    if (u) $("accountEmail").textContent = u.email || (u.providerData[0] && u.providerData[0].email) || "your account";
+  });
+
+  async function signIn(provider) {
+    $("signinError").hidden = true;
+    try { await signInWithPopup(auth, provider); }
+    catch (e) {
+      if (e && (e.code === "auth/popup-closed-by-user" || e.code === "auth/cancelled-popup-request")) return;
+      $("signinError").textContent = e && e.code === "auth/popup-blocked"
+        ? "Your browser blocked the sign-in window. Allow pop-ups for ttsreader.com and try again."
+        : "Sign-in didn't work. Please try again.";
+      $("signinError").hidden = false;
+    }
+  }
+  $("googleBtn").onclick = () => { const p = new GoogleAuthProvider(); p.setCustomParameters({ prompt: "select_account" }); signIn(p); };
+  $("appleBtn").onclick = () => { const p = new OAuthProvider("apple.com"); p.addScope("email"); p.addScope("name"); signIn(p); };
+  $("switchBtn").onclick = () => signOut(auth);
+
+  // ---- the answer ----
+  async function answer(allow) {
+    if (busy || !auth.currentUser) return;
+    setBusy(true);
+    $("consentError").hidden = true;
+    const fail = (text) => { $("consentError").textContent = text; $("consentError").hidden = false; setBusy(false); };
+    let r, body;
+    try {
+      const idToken = await auth.currentUser.getIdToken();
+      r = await fetch("/oauth/consent", {
+        method: "POST", cache: "no-store",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${idToken}` },
+        body: JSON.stringify({ requestId, allow }),
+      });
+      body = await r.json().catch(() => ({}));
+    } catch (_) { return fail("TTSReader is not reachable right now. Check your connection and try again."); }
+
+    if (r.status === 200 && typeof body.redirectTo === "string" && body.redirectTo.startsWith("https://")) {
+      $("consent").hidden = true;
+      $("clientHost").textContent = allow ? `Connected. Taking you back to ${info.clientName || "the app"}…` : "Cancelled. Taking you back…";
+      location.replace(body.redirectTo);
+      return;
+    }
+    if (r.status === 404) { problem(...EXPIRED); return; }
+    if (r.status === 401) { setBusy(false); await signOut(auth); $("signinError").textContent = "Your sign-in expired. Please sign in again."; $("signinError").hidden = false; return; }
+    fail((body && body.error && body.error.message) || "Something went wrong. Please try again.");
+  }
+  $("allowBtn").onclick = () => answer(true);
+  $("denyBtn").onclick = () => answer(false);
+</script>
+</body>
+</html>
