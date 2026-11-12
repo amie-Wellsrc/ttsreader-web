@@ -207,7 +207,14 @@
       body = await r.json().catch(() => ({}));
     } catch (_) { return fail("TTSReader is not reachable right now. Check your connection and try again."); }
 
-    if (r.status === 200 && typeof body.redirectTo === "string" && body.redirectTo.startsWith("https://")) {
+    // Where the server sends us back: an https address, or — for an app on this computer (Codex, Claude Code), and
+    // only when the server said so for this request — a loopback address (http://127.0.0.1, localhost, [::1]).
+    const returnsHere = (u) => {
+      if (typeof u !== "string") return false;
+      if (u.startsWith("https://")) return true;
+      try { const x = new URL(u); return info.localApp === true && x.protocol === "http:" && ["127.0.0.1", "localhost", "[::1]"].includes(x.hostname); } catch (_) { return false; }
+    };
+    if (r.status === 200 && returnsHere(body.redirectTo)) {
       $("consent").hidden = true;
       $("clientHost").textContent = allow ? `Connected. Taking you back to ${info.clientName || "the app"}…` : "Cancelled. Taking you back…";
       location.replace(body.redirectTo);
