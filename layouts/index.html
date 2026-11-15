@@ -328,11 +328,24 @@
         <br/>
       </div>&nbsp;&nbsp;
       <div class="col-sm card" style="display: flex;flex-direction: column">
-        <h3 class="h4">Chrome Extension</h3>
+        <h3 class="h4" id="homeExtensionTitle">Chrome Extension</h3>
         <p>Reads out loud webpages, directly from within the page.</p>
         <div style="flex: 1;min-height: 10px;"></div>
-        <a class="btn btn-outline-primary btn-lg px-4 mb-2" href="{{ .Site.Params.links.chromeExtension }}" role="button" onclick="gtag('event', 'ttsreader_click_extension_body', {'value': 'home_page_body'});">Get it on Chrome Store{{ i18n "start-dictating" }}</a>
+        <a class="btn btn-outline-primary btn-lg px-4 mb-2" id="homeExtensionLink" href="{{ .Site.Params.links.chromeExtension }}" role="button" data-ga-value="home_page_body" onclick="gtag('event', 'ttsreader_click_extension_body', {'value': this.dataset.gaValue});">Get it on Chrome Store{{ i18n "start-dictating" }}</a>
         <br/>
+        <script>
+          // On desktop Microsoft Edge, offer the Edge Add-ons listing instead of the Chrome Web Store.
+          (function () {
+            var brands = (navigator.userAgentData && navigator.userAgentData.brands) || [];
+            var isEdge = brands.some(function (b) { return b.brand === "Microsoft Edge"; }) || /\bEdg\//.test(navigator.userAgent);
+            if (!isEdge) return;
+            var link = document.getElementById("homeExtensionLink");
+            link.href = "{{ .Site.Params.links.edgeExtension }}";
+            link.textContent = "Get it on Edge Add-ons";
+            link.dataset.gaValue = "home_page_body_edge";
+            document.getElementById("homeExtensionTitle").textContent = "Edge Extension";
+          })();
+        </script>
       </div>
     </div>
     <div class="row justify-content-center text-center" style="max-width: 100%;margin: auto;">
