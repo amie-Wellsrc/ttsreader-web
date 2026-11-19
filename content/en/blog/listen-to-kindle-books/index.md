@@ -1,6 +1,6 @@
 ---
 title: "How to Listen to Your Kindle Books on a Computer With TTSReader"
-description: "A step-by-step guide to having your Kindle books read out loud on a computer with the TTSReader Chrome extension, from installing it to choosing a voice. Includes what it costs and answers to common questions."
+description: "A step-by-step guide to having your Kindle books read out loud on a computer with the TTSReader browser extension for Chrome or Edge, from installing it to choosing a voice. Includes what it costs and answers to common questions."
 excerpt: "A step-by-step guide to having your Kindle books read out loud on a computer, with no experience of browser extensions needed."
 date: 2026-11-04T01:00:00+02:00
 lastmod: 2026-11-04T01:00:00+02:00
@@ -126,7 +126,7 @@ As far as we know, this is the best plan of its kind in the world. You can see e
 The same extension reads much more than Kindle books:
 
 - Any web page, such as a news story, an article or a blog post.
-- PDF files that you open in Chrome.
+- PDF files that you open in Chrome or Edge.
 - Only the text you select on a page.
 - Text you've typed into a box on a page, such as a message you're writing.
 - Social media feeds. As new posts load, TTSReader goes on reading them.

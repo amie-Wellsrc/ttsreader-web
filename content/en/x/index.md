@@ -1,5 +1,5 @@
 ---
-title: "TTSReader's New Chrome Extension"
+title: "TTSReader's New Browser Extension (Chrome & Edge)"
 description: "Listen to any website, blog, social feed - SECURELY!"
 excerpt: "Listen to any website, blog, social feed - SECURELY!"
 lead: "Listen to any website, blog, social feed - SECURELY!"
