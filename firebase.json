@@ -37,6 +37,11 @@
     ],
     "redirects": [
       {
+        "source": "/stories{,/**}",
+        "destination": "/player/",
+        "type": 301
+      },
+      {
         "source": "/en/",
         "destination": "/player/",
         "type": 301

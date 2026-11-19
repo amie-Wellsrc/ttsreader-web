@@ -3,7 +3,7 @@ title: "TTSReader's Text-To-Speech API"
 description: "REST API to Speech Synthesis, Automation"
 lead: "Single endpoint to ALL the best AI Speech Engines: OpenAI, Azure, Google, ElevenLabs, and more. Simplest to set up, fast, and powerful."
 date: 2025-05-16T08:50:23+02:00
-lastmod: 2025-12-28T08:50:23+02:00
+lastmod: 2026-11-09T12:00:00+02:00
 draft: false
 toc: true
 images: []
@@ -27,8 +27,8 @@ There are many APIs out there - why would you choose TTSReader's? Good question!
 
 Its main advantages:
 1. Super simple and straightforward. No complex setup. Get going in less than a minute - that includes generating your API key, setting up payment method and actually testing it.
-2. Extremely affordable. For example - you can purchase 3 Miliion characters from TTSReader, for just $39 - whereas buying the same from Azure would cost you $45. Most other vendors would cost even more. Our prices go even lower if you purchase more.
-3. Highest quality AI voices, for multipurpose use cases. You can use ANY Azure Neural AI voice - with our API - simply by specifying the voice's display name. Literally - there are more than 600 available voices. See Azure's voice gallery here - <a href="https://speech.azure.cn/portal/voicegallery" target="_blank" style="color: #007bff;">https://speech.azure.cn/portal/voicegallery</a>
+2. Extremely affordable. The API uses the same quota as your TTSReader plan: Premium includes 1 million characters every month for $10.99 ($8.25/month on the annual plan) - less than Azure's $16 per million characters for the same neural voices. Need more? Add one-time credit packs: 1 million characters for $19. Most other vendors cost much more. See [Plans & Pricing](/docs/support/pricing/).
+3. Highest quality AI voices, for multipurpose use cases. You can use ANY Azure Neural AI voice - with our API - simply by specifying the voice's display name. Literally - there are more than 630 available voices, in 80+ languages. See Azure's voice gallery here - <a href="https://speech.azure.cn/portal/voicegallery" target="_blank" style="color: #007bff;">https://speech.azure.cn/portal/voicegallery</a>
 4. All payments are either prepaid - or based on a monthly subscription with a pre-fixed amount. No surprises, no unexpected bills. Need more? No problem - only you decide AHEAD of time - how much you want to purchase.
 5. *Low Latency* - the API is super fast, it's the exact same endpoint as our TTSReader Player - so - it's super fast.
 6. *Super Reliable* - 100% uptime, just like our TTSReader Player. You enjoy our very own backend infrastructure, that serves thousands of users every day - so - it's rock solid reliable.
