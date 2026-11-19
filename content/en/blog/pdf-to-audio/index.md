@@ -36,7 +36,7 @@ Open [ttsreader.com/player](https://ttsreader.com/player/) and upload your PDF.
 
 ![The TTSReader player on a phone, empty, as a file named bees.pdf is dropped onto it.](01-upload.webp)
 
-### 2. Its text is in the editor
+### 2. Check the text in the editor
 
 In a few seconds, its text is in the editor, ready to read.
 

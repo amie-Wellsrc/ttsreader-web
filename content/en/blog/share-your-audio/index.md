@@ -18,7 +18,7 @@ Share what you make with TTSReader: one link for your class, or for your friends
 
 {{< youtube id="W8pRr8v-mE4" title="Share What You Make with TTSReader: One Link for Your Class and Your Friends" >}}
 
-*On your phone? Watch the [one-minute Short](https://youtube.com/shorts/cwEhOltwtAA).*
+*On your phone? Watch the [Short](https://youtube.com/shorts/cwEhOltwtAA).*
 
 ## One link for the whole class
 
@@ -32,7 +32,7 @@ A teacher posts a lesson for the class. A student listens, taps back through the
 
 ### 1. Turn your text into audio
 
-Make an audio file from your text in TTSReader.
+Make an audio file from your text in TTSReader. MP3 downloads are a Premium feature; the free plan includes a taste.
 
 ![The Instant MP3 / WAV generation window in TTSReader, with the Create & Download MP3 button highlighted.](01-make-audio.webp)
 
@@ -62,7 +62,7 @@ From the same page, download the transcript as a printable PDF for every desk, a
 
 ## With Premium
 
-Each export can also go to your personal podcast channel (see the [guide to creating a podcast](https://ttsreader.com/docs/guides/create-podcasts/) and [how TTSReader lets anyone create a free podcast channel](https://ttsreader.com/blog/ttsreader-lets-anyone-create-a-free-podcast-channel/)). And you own the copyrights to the exported audio, so it's yours to publish, for example on the school website.
+Each export can also go to your personal podcast channel (see the [guide to creating a podcast](https://ttsreader.com/docs/guides/create-podcasts/)). And you own the copyrights to the exported audio, so it's yours to publish, for example on the school website.
 
 ## Friends share the same way
 

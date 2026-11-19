@@ -71,6 +71,11 @@ Summarize, News Recap, Learn a topic and audio downloads are Premium features. G
 </p>
 
 <br/>
+<p style="margin:auto;text-align: center;background-color: darkred;color: white;display: block; padding: 10px 20px; border-radius: 10px; font-size: larger;">
+<a style="color:white;font-weight: bold" href="https://play.google.com/store/apps/details?id=com.ttsreader.ttsreader" target="_blank">👉 &nbsp; GET TTSREADER ON GOOGLE PLAY</a>
+</p>
+
+<br/>
 
 Prefer your computer? [Open TTSReader in your browser](https://ttsreader.com/player/). New to the app? See the [quick start guide](https://ttsreader.com/docs/guides/quick-start-new-player/) and the [first look at TTSReader for iPhone](https://ttsreader.com/blog/ttsreader-for-iphone-a-first-look-at-our-new-mobile-app/). Looking for something to listen to on the road? [All of Project Gutenberg and LibriVox are in TTSReader](https://ttsreader.com/blog/ttsreader-now-holds-all-of-project-gutenberg-and-all-of-librivox-with-5000-hours-of-human-narration-synced-to-the-text/), with CarPlay and Android Auto.
 

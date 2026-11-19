@@ -72,7 +72,7 @@ With Premium, download chapters as MP3s to listen offline, anywhere.
 
 ## Pick a classic
 
-Every voice in the video was made with TTSReader. Pick a classic, and press play.
+Pick a classic, and press play.
 
 <p style="margin:auto;text-align: center;background-color: darkred;color: white;display: block; padding: 10px 20px; border-radius: 10px; font-size: larger;">
 <a style="color:white;font-weight: bold" href="https://ttsreader.com/player/" target="_blank">👉 &nbsp; OPEN TTSREADER AND PICK A CLASSIC</a>
@@ -87,7 +87,7 @@ Use TTSReader to listen to classic literature.
 
 Call me Ishmael. All children, except one, grow up. To Sherlock Holmes she is always the woman.
 
-Hundreds of the world's greatest classics are ready for you, open and at no extra cost. Open Discover, pick a book, and press play. Press play, then sit back and enjoy a great story.
+Hundreds of the world's greatest classics are ready for you, open and at no extra cost. Open Discover, pick a book, and press play. Then sit back and enjoy a great story.
 
 Listen at your own pace, faster or slower. Follow along as each sentence is highlighted. On your phone, it keeps playing in the background, while you drive, run errands, or go for a walk. And with Premium, download chapters to listen offline.
 

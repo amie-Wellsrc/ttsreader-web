@@ -32,7 +32,7 @@ Or translate the day's news into French for a friend in Paris, a book chapter in
 
 ### 1. Click the AI button on the article
 
-With Premium, open your library and click **AI** on the article.
+With Premium, open your library and click or tap **AI** on the article.
 
 ![The library on a phone, the AI button on Film festival on the beach being tapped.](01-ai-button.webp)
 
@@ -97,7 +97,7 @@ Or a chapter of a book into German, for your reading group. "Es ist eine allgeme
 
 And a podcast script into Japanese, for an episode in a new language. 「皆さん、こんにちは。今日のエピソードへようこそ。」
 
-Pick a language, and press play.
+Pick a language, and press play. ttsreader.com
 {{< /details >}}
 
 *All speech in the video was produced with TTSReader: Nova Premium (the guide), Dalia (es-MX), Denise (fr-FR), Conrad (de-DE) and Keita (ja-JP), Microsoft Azure neural voices served through TTSReader. Pride and Prejudice by Jane Austen (1813) is in the public domain; the other example sentences were written for the video.*

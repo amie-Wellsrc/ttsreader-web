@@ -62,7 +62,7 @@ You can change the speed at any time, faster or slower.
 
 ## The other apps have a free tier too
 
-With some limits. Sign in with a free account, and the Chrome extension's Basic voices are unlimited; on iPhone and Android, the voices on your device are unlimited. You also get a free taste of the premium AI voices and MP3 downloads.
+They have a free tier too, with some limits. Sign in with a free account, and the Chrome extension's Basic voices are unlimited; on iPhone and Android, the voices on your device are unlimited. You also get a free taste of the premium AI voices and MP3 downloads.
 
 ![Cards for the Chrome extension, iPhone and Android, each free with a free account.](other-apps.webp)
 

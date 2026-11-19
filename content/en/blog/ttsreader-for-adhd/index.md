@@ -1,6 +1,6 @@
 ---
 title: "TTSReader for ADHD: Reading That Works the Way Your Mind Does"
-description: "TTSReader for ADHD, reading that works the way your mind does: for ADHD Awareness Month, how TTSReader can make reading easier for people with ADHD."
+description: "For ADHD Awareness Month: five TTSReader features that make reading easier for people with ADHD."
 excerpt: "For many people with ADHD, reading takes real effort. Five TTSReader features that help: a voice and a highlight to keep you focused, a marker that keeps your place, your own pace, the big picture first, and the freedom to move."
 date: 2026-10-13T12:00:00+03:00
 lastmod: 2026-11-10T12:00:00+02:00
@@ -62,7 +62,7 @@ If you think better on the move, lock the screen. TTSReader keeps reading while 
 
 ## What a study found
 
-In a study of twenty college students with attention disorders, reading with a voice and highlighting, the students said their thoughts wandered less. They read for longer, with less stress and fatigue. The study (Hecker et al., 2002, *Annals of Dyslexia*) used other software, not TTSReader, its findings are partly the students' own reports, and it found no significant effect on comprehension.
+In a study of twenty college students with attention disorders, reading with a voice and highlighting, the students said their thoughts wandered less. They read for longer, with less stress and fatigue. The study (Hecker et al., 2002, *Annals of Dyslexia*) used other software, not TTSReader; its findings are partly the students' own reports, and it found no significant effect on comprehension.
 
 ## Read it your way
 

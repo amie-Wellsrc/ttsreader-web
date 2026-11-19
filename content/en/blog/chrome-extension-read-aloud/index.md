@@ -26,7 +26,7 @@ A long news piece on the Maple Street library, and an inbox waiting: press play 
 
 ![A news article reading aloud in one window, the inbox open in another.](work-in-another-tab.webp)
 
-It works the same with a spreadsheet, a design or your research notes, and for a history class, a long blog post, learning English and your own writing.
+It works the same while you're in a spreadsheet, a design or your research notes, and for a history class, a long blog post, learning English and your own writing.
 
 ## How to listen with the TTSReader Chrome extension
 
@@ -62,17 +62,19 @@ Set the speed from 0.5× to 2×: slow a fable down to three-quarter speed to lea
 
 ### 6. Hear your own writing before you post it
 
-Press the same button, click a text box, and hear your own writing.
+Press the hand button again, click a text box, and hear your own writing.
 
-![A neighbourhood-board post read aloud from its text box.](06-your-own-writing.webp)
+![A neighborhood-board post read aloud from its text box.](06-your-own-writing.webp)
 
 ## Free to start
 
 Sign in with Google or Apple in the side panel, and the Basic voices are free. Premium adds more voices, like the one reading the library article. Add TTSReader to Chrome, and press play.
 
 <p style="margin:auto;text-align: center;background-color: darkred;color: white;display: block; padding: 10px 20px; border-radius: 10px; font-size: larger;">
-<a style="color:white;font-weight: bold" href="https://chromewebstore.google.com/detail/ttsreader-v3-premium-ai-t/kimpjeeihakmgdlnkjaapkdikpjccabi" target="_blank">👉 &nbsp; ADD TTSREADER TO CHROME</a>
+<a style="color:white;font-weight: bold" href="https://chromewebstore.google.com/detail/ttsreader-v3-premium-ai-t/kimpjeeihakmgdlnkjaapkdikpjccabi" target="_blank" data-edge-text="👉 &nbsp; ADD TTSREADER TO EDGE">👉 &nbsp; ADD TTSREADER TO CHROME</a>
 </p>
+
+<p style="text-align: center;">Also available for Microsoft Edge: <a href="https://microsoftedge.microsoft.com/addons/detail/ttsreader-v3-premium-ai/dnkkjjacmfdejfhjjdjmafkkiamhcnkl" target="_blank">get it from Edge Add-ons</a>.</p>
 
 <br/>
 
@@ -94,4 +96,4 @@ On a long blog post, press the hand button, click the paragraph you want, and it
 In the side panel, sign in with Google or Apple, and the Basic voices are free. With Premium, you get even more voices, like the one that read the article at the start. Add TTSReader to Chrome, and press play. ttsreader.com
 {{< /details >}}
 
-*All speech in the video was produced with TTSReader: Nova Premium (the guide) and Adam Premium (the extension reading the page). The Gettysburg Address (Abraham Lincoln, 1863) and "The North Wind and the Sun" (Aesop's Fables, translated by George Fyler Townsend, 1867, [Project Gutenberg](https://www.gutenberg.org/ebooks/21)) are in the public domain. The news, class, fable and neighbourhood pages were written for the video; the sites are fictional.*
+*All speech in the video was produced with TTSReader: Nova Premium (the guide) and Adam Premium (the extension reading the page). The Gettysburg Address (Abraham Lincoln, 1863) and "The North Wind and the Sun" (Aesop's Fables, translated by George Fyler Townsend, 1867, [Project Gutenberg](https://www.gutenberg.org/ebooks/21)) are in the public domain. The news, class, fable and neighborhood pages were written for the video; the sites are fictional.*

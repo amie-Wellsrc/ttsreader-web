@@ -18,7 +18,7 @@ Listen offline, anywhere: download your reading with TTSReader, and play it with
 
 {{< youtube id="TCUU9zrIB8c" title="Listen Offline, Anywhere: Download Your Reading with TTSReader" >}}
 
-*On your phone? Watch the [one-minute Short](https://youtube.com/shorts/aI_INHMODVo).*
+*On your phone? Watch the [Short](https://youtube.com/shorts/aI_INHMODVo).*
 
 ## Your reading, with no connection
 
@@ -52,7 +52,7 @@ With airplane mode on, open the ⋯ menu and tap **Play offline**.
 
 ## Play it as often as you like
 
-The characters are spent once; play the downloaded audio as often as you like. It keeps playing with the screen locked, right from your pocket.
+Rendering with a premium voice uses characters from your plan once; play the downloaded audio as often as you like at no extra cost. It keeps playing with the screen locked, right from your pocket.
 
 ![On a mountain trail, the lock screen showing Pride and Prejudice still playing.](screen-locked.webp)
 
@@ -71,6 +71,11 @@ On the trail, in the tunnel, or high above the clouds, your reading goes with yo
 </p>
 
 <br/>
+<p style="margin:auto;text-align: center;background-color: darkred;color: white;display: block; padding: 10px 20px; border-radius: 10px; font-size: larger;">
+<a style="color:white;font-weight: bold" href="https://play.google.com/store/apps/details?id=com.ttsreader.ttsreader" target="_blank">👉 &nbsp; GET TTSREADER ON GOOGLE PLAY</a>
+</p>
+
+<br/>
 
 Prefer your computer? [Open TTSReader in your browser](https://ttsreader.com/player/). New to the app? See the [quick start guide](https://ttsreader.com/docs/guides/quick-start-new-player/) and the [first look at TTSReader for iPhone](https://ttsreader.com/blog/ttsreader-for-iphone-a-first-look-at-our-new-mobile-app/). Something to take with you? [All of Project Gutenberg and LibriVox are in TTSReader](https://ttsreader.com/blog/ttsreader-now-holds-all-of-project-gutenberg-and-all-of-librivox-with-5000-hours-of-human-narration-synced-to-the-text/).
 
@@ -83,7 +88,7 @@ Here's Pride and Prejudice, the night before a flight. Open the book and tap Ren
 
 Play it as often as you like: the characters are spent once. It keeps playing with the screen locked, right from your pocket. And your phone's own voices read your documents offline too, with nothing to download.
 
-On the trail, in the tunnel, or high above the clouds, your reading goes with you. Download before you go, and listen anywhere.
+On the trail, in the tunnel, or high above the clouds, your reading goes with you. Download before you go, and listen anywhere. ttsreader.com
 {{< /details >}}
 
 *All speech in the video was produced with TTSReader: Nova Premium (the guide) and Libby Premium (the book). Pride and Prejudice by Jane Austen (1813) is in the public domain.*

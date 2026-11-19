@@ -1,6 +1,6 @@
 ---
 title: "Speak the Code: Practice Maritime and Aviation Radio Phrases with TTSReader"
-description: "At sea and in the air, a misheard word is a safety problem, so these professions speak by fixed phrases: the IMO's Standard Marine Communication Phrases at sea, ICAO radiotelephony in the air (where three is 'tree' and nine is 'niner')."
+description: "Practice maritime (IMO SMCP) and aviation (ICAO) radio phrases out loud with TTSReader: paste your list, switch accents, slow it down and loop it."
 excerpt: "At sea and in the air, crews speak by a fixed code of radio phrases. Paste in your own field's phrases, listen in more than one accent, slow them down and loop them, and say them back until they're yours."
 date: 2026-11-09T00:00:00+02:00
 lastmod: 2026-11-10T12:00:00+02:00
@@ -52,11 +52,11 @@ Slow it down, all the way to 0.5×. Turn on **Loop**, and say each phrase back u
 
 ![The Playback panel in TTSReader with the Playback Speed slider at 0.5.](03-slow-down.webp)
 
-Train with your own organisation's approved phrase list; the ones in the video are short examples.
+Train with your own organization's approved phrase list; the ones in the video are short examples.
 
 ## What a study found
 
-In 2025, Hang Tuah University in Indonesia brought TTSReader into its Maritime English classes, together with VoiceThread. The 84 cadets' mean English test score rose from 68 to 81.6; 85% said their vocabulary grew, and 83% that they communicated better in navigation tasks. One programme, no control group, self-reported percentages, and the results belong to the whole programme, VoiceThread included.
+In 2025, Hang Tuah University in Indonesia brought TTSReader into its Maritime English classes, together with VoiceThread. The 84 cadets' mean English test score rose from 68 to 81.6; 85% said their vocabulary grew, and 83% that they communicated better in navigation tasks. One program, no control group, self-reported percentages, and the results belong to the whole programme, VoiceThread included.
 
 ![The title block of the study "Integrating VoiceThread and TTSReader into Maritime English Education", next to a bar chart of the cadets' mean English test score: 68 before, 82 after.](the-study.webp)
 

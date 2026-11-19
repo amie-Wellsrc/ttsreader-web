@@ -18,7 +18,7 @@ Start a document in the TTSReader web app, and pick it up in the mobile app, on 
 
 {{< youtube id="lh7Zxkx_h-I" title="Sync TTSReader Across Devices: Start in the Web App, Finish on Your Phone" >}}
 
-*On your phone? Watch the [one-minute Short](https://youtube.com/shorts/3bHnwU6E6YU).*
+*On your phone? Watch the [Short](https://youtube.com/shorts/3bHnwU6E6YU).*
 
 ## Read at your desk, listen on the bus
 
@@ -31,6 +31,8 @@ It's there in the car too, in the TTSReader app on Android Auto or CarPlay.
 ## How to sync TTSReader across devices
 
 ### 1. Sign in with the same account in each app
+
+Sign in with the same account in the web app and in the mobile app.
 
 ![A laptop and a phone, each showing Signed in as you@example.com.](01-same-account.webp)
 
@@ -67,6 +69,11 @@ Cloud sync is part of TTSReader Premium: sign in, with an active Premium subscri
 </p>
 
 <br/>
+<p style="margin:auto;text-align: center;background-color: darkred;color: white;display: block; padding: 10px 20px; border-radius: 10px; font-size: larger;">
+<a style="color:white;font-weight: bold" href="https://play.google.com/store/apps/details?id=com.ttsreader.ttsreader" target="_blank">👉 &nbsp; GET TTSREADER ON GOOGLE PLAY</a>
+</p>
+
+<br/>
 
 Start in your browser: [open the TTSReader web app](https://ttsreader.com/player/). New to TTSReader? See the [quick start guide](https://ttsreader.com/docs/guides/quick-start-new-player/) and the [first look at TTSReader for iPhone](https://ttsreader.com/blog/ttsreader-for-iphone-a-first-look-at-our-new-mobile-app/).
 
@@ -79,7 +86,7 @@ Read an article at your desk, then press play on the bus home, and it carries on
 
 "Siobhan will lead Monday's meeting."
 
-Start it here, finish it there.
+Start it here, finish it there. ttsreader.com
 {{< /details >}}
 
 *All speech in the video was produced with TTSReader: Nova Premium (the guide) and John Premium (the app reading the meeting note). Pride and Prejudice by Jane Austen, from Project Gutenberg, is in the public domain. Android and Android Auto are trademarks of Google LLC; iOS is a trademark or registered trademark of Cisco in the U.S. and other countries, used under license by Apple; CarPlay is a trademark of Apple Inc.*
