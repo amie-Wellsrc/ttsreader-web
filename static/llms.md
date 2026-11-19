@@ -19,6 +19,7 @@ TTSReader offering includes:
 - [Web Player](https://ttsreader.com/player/): The main TTSReader web app
 - [Plugin for websites owners](https://ttsreader.com/plugin/): Add-on to any website, so visitors can listen to the site's content.
 - [Chrome Extension](https://chrome.google.com/webstore/detail/kimpjeeihakmgdlnkjaapkdikpjccabi)  for premium users - to have them listen to any website.
+- [Edge Extension](https://microsoftedge.microsoft.com/addons/detail/ttsreader-v3-premium-ai/dnkkjjacmfdejfhjjdjmafkkiamhcnkl): The same extension on Microsoft Edge Add-ons.
 - [API](https://ttsreader.com/api/): TTSReader API for developers
 - [Text to WAV Converter](https://ttsreader.com/convert2wav/): Convert text to WAV audio files
 - [Sound Effects](https://ttsreader.com/sounds/): Ambient sounds and sound effects library

@@ -1,0 +1,54 @@
+<script>
+  // On desktop Microsoft Edge, send links to our Chrome Web Store listing to our Edge Add-ons listing instead.
+  // Same Edge test as the web app (ttsreader-player-i18n, src/helpers/ExtensionStoreLinks.js): Edge on Android
+  // (EdgA/) and iOS (EdgiOS/) can't install extensions and doesn't match. Off Edge, or if anything fails,
+  // the page is left as is, and the Chrome listing still installs on Edge.
+  (function () {
+    try {
+      if (!/\bEdg\//.test(navigator.userAgent)) return;
+      var EDGE_URL = {{ .Site.Params.links.edgeExtension }};
+      var EDGE_ID = "dnkkjjacmfdejfhjjdjmafkkiamhcnkl";
+      var CHROME_LISTING = /^https?:\/\/(chromewebstore\.google\.com\/detail|chrome\.google\.com\/webstore\/detail)\/([^\/?#]+\/)?kimpjeeihakmgdlnkjaapkdikpjccabi([\/?#]|$)/;
+      var isEdgeListing = function (a) { return a.href.indexOf(EDGE_ID) !== -1; };
+
+      // Store pairs (data-store-pair): show the Edge link first.
+      document.querySelectorAll("[data-store-pair]").forEach(function (box) {
+        var links = box.querySelectorAll("a[href]");
+        var chrome = null, edge = null;
+        links.forEach(function (a) {
+          if (CHROME_LISTING.test(a.href)) chrome = chrome || a;
+          else if (isEdgeListing(a)) edge = edge || a;
+        });
+        if (!chrome || !edge) return;
+        if (chrome.compareDocumentPosition(edge) & Node.DOCUMENT_POSITION_FOLLOWING) {
+          var marker = document.createComment("");
+          chrome.replaceWith(marker);
+          edge.replaceWith(chrome);
+          marker.replaceWith(edge);
+        }
+      });
+
+      // Decide for every link first, then change them, so a rewritten link never counts as an Edge link.
+      var toRewrite = [];
+      document.querySelectorAll("a[href]").forEach(function (a) {
+        if (isEdgeListing(a)) {
+          // Both stores are offered side by side: highlight the Edge one.
+          a.style.fontWeight = "bold";
+          return;
+        }
+        if (!CHROME_LISTING.test(a.href)) return;
+        // Leave the Chrome link when the same block already offers the Edge listing.
+        var block = a.parentElement;
+        if (block && Array.prototype.some.call(block.querySelectorAll("a[href]"), isEdgeListing)) return;
+        toRewrite.push(a);
+      });
+      toRewrite.forEach(function (a) { a.href = EDGE_URL; });
+
+      // Optional Edge wording and analytics labels.
+      document.querySelectorAll("[data-edge-text]").forEach(function (el) { el.textContent = el.getAttribute("data-edge-text"); });
+      document.querySelectorAll("[data-edge-ga-value]").forEach(function (el) { el.setAttribute("data-ga-value", el.getAttribute("data-edge-ga-value")); });
+    } catch (e) {
+      // Leave the Chrome links in place.
+    }
+  })();
+</script>

@@ -326,13 +326,6 @@
         <div style="flex: 1;min-height: 10px;"></div>
         <a class="btn btn-outline-primary btn-lg px-4 mb-2" href="{{ .Site.Params.links.webPlayer }}" role="button" onclick="gtag('event', 'ttsreader_click_new_body', {'value': 'home_page_body'});">Start listening{{ i18n "start-dictating" }}</a>
         <br/>
-      </div>&nbsp;&nbsp;
-      <div class="col-sm card" style="display: flex;flex-direction: column">
-        <h3 class="h4">Chrome Extension</h3>
-        <p>Reads out loud webpages, directly from within the page.</p>
-        <div style="flex: 1;min-height: 10px;"></div>
-        <a class="btn btn-outline-primary btn-lg px-4 mb-2" href="{{ .Site.Params.links.chromeExtension }}" role="button" onclick="gtag('event', 'ttsreader_click_extension_body', {'value': 'home_page_body'});">Get it on Chrome Store{{ i18n "start-dictating" }}</a>
-        <br/>
       </div>
     </div>
     <div class="row justify-content-center text-center" style="max-width: 100%;margin: auto;">
@@ -359,6 +352,16 @@
       </div>
     </div>
   </div>-->
+
+  <div class="row justify-content-center text-center" style="max-width: 100%;margin: auto;">
+    <div class="col-sm card" style="display: flex;flex-direction: column;max-width: 420px;">
+      <h3 class="h4" data-edge-text="Edge Extension">Chrome Extension</h3>
+      <p>Reads out loud webpages, directly from within the page.</p>
+      <div style="flex: 1;min-height: 10px;"></div>
+      <a class="btn btn-outline-primary btn-lg px-4 mb-2" href="{{ .Site.Params.links.chromeExtension }}" role="button" data-ga-value="home_page_body" data-edge-ga-value="home_page_body_edge" data-edge-text="Get it on Edge Add-ons" onclick="gtag('event', 'ttsreader_click_extension_body', {'value': this.getAttribute('data-ga-value')});">Get it on Chrome Store{{ i18n "start-dictating" }}</a>
+      <br/>
+    </div>
+  </div>
 </section>
 
 <section class="section section-sm bg-light">
