@@ -24,7 +24,7 @@ sitemap:
 We are excited to launch the new **TTSReader browser extension**. Compatible with **Chrome** and **Edge**. Still working on a **Firefox** version.
 
 
-<div style="padding: 30px; border: orangered 1px solid; border-radius: 15px; margin: 30px auto; text-align: center; font-size: larger; font-weight: bold;">
+<div data-store-pair style="padding: 30px; border: orangered 1px solid; border-radius: 15px; margin: 30px auto; text-align: center; font-size: larger; font-weight: bold;">
 Install it directly from your browser's store:<br/>
 <a href="https://chromewebstore.google.com/detail/kimpjeeihakmgdlnkjaapkdikpjccabi" target="_blank">Get it for Chrome</a>
 &nbsp;|&nbsp;
@@ -160,7 +160,7 @@ We built the extension from scratch, bottom-up. Our previous extension (first pu
 
 ## Get Started Now
 
-<div style="padding: 30px; border: orangered 1px solid; border-radius: 15px; margin: 30px auto; text-align: center; font-size: larger; font-weight: bold;">
+<div data-store-pair style="padding: 30px; border: orangered 1px solid; border-radius: 15px; margin: 30px auto; text-align: center; font-size: larger; font-weight: bold;">
 Install it directly from your browser's store:<br/>
 <a href="https://chromewebstore.google.com/detail/kimpjeeihakmgdlnkjaapkdikpjccabi" target="_blank">Get it for Chrome</a>
 &nbsp;|&nbsp;
