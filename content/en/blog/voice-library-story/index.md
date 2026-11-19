@@ -18,7 +18,7 @@ homepage: false
 
 A text-to-speech voice is the narrator of your content. The right narrator can make a technical document clear, a story compelling, and a brand trustworthy. The wrong one—robotic, monotonous, and flat—can ruin the experience, no matter how good the text is.
 
-When we started building [TTSReader](https://ttsreader.com/player/), we knew the quality of our voices would be everything. We faced a choice: spend years trying to build a competitive TTS engine from scratch, or stand on the shoulders of giants. We chose the latter. This is the story of why we built our platform on Microsoft Azure's Neural TTS engine, giving our users access to a world-class library of over 630 voices from day one.
+When we started building [TTSReader](https://ttsreader.com/player/), we knew the quality of our voices would be everything. We faced a choice: spend years trying to build a competitive TTS engine from scratch, or stand on the shoulders of giants. We chose the latter. This is the story of why we built our platform on Microsoft Azure's Neural TTS engine, giving our users access to a world-class library that now numbers over 630 voices.
 
 ### The Leap to Neural TTS
 
